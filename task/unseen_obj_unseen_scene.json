@@ -1,0 +1,269 @@
+{
+    "Pomaria_1_int": {
+        "salmon": [
+            {
+                "user_instruction": "I need to check on the salmon we're planning to have for dinner; could you find it in the fridge?",
+                "basic_object_name": "salmon",
+                "prompt": "stored for tonight's dinner.",
+                "habits": [
+                    "Enjoys having a weekly dinner with freshly bought seafood.",
+                    "Stores seafood in specific compartments in the fridge to keep it fresh.",
+                    "Wraps salmon in butcher paper before refrigerating to retain moisture.",
+                    "Keeps the seafood on the shelf closer to the freezer for optimal temperature.",
+                    "Uses lemon slices with the salmon to enhance flavor before cooking.",
+                    "Regularly checks the freshness of refrigerated items before meal preparation.",
+                    "Labels the items in the fridge with the purchase date for better inventory management.",
+                    "Arranges the fridge shelves in an order: beverages, vegetables, meats, then seafood.",
+                    "Performs a cleanup of the fridge every other week.",
+                    "Prefers to consume perishable seafood items within a couple of days of purchase.",
+                    "Plans dinners in advance and arranges the necessary ingredients in the fridge.",
+                    "Likes to marinate salmon briefly with herbs and lemon juice before refrigerating.",
+                    "Tends to place a small pot_plant in the fridge for natural freshness."
+                ],
+                "location": [
+                    "salmon.place_inside(fridge)",
+                    "salmon.place_nextto(bottle_of_detergent)",
+                    "salmon.place_inside(paper_bag)",
+                    "salmon.place_nextto(lemon_juice_bottle)",
+                    "salmon.place_inside(bottle_of_bleach_agent)",
+                    "salmon.place_inside(disinfectant_bottle)",
+                    "salmon.place_ontop(shelf)"
+                ]
+            }
+        ],
+        "top_cabinet": [
+            {
+                "user_instruction": "Track down the top cabinet where I store essentials for quick access during cooking.",
+                "basic_object_name": "top_cabinet",
+                "prompt": "a key storage area in my kitchen routine.",
+                "habits": [
+                    "User regularly stores cooking spices and tea/coffee supplies in the top cabinet for convenience.",
+                    "The cabinet is organized every weekend to ensure easy access to items.",
+                    "User places frequently used cooking utensils in this cabinet.",
+                    "Cleaning supplies for the kitchen are stored in a separate cabinet.",
+                    "User checks the inventory of the cabinet before grocery shopping.",
+                    "A step stool is kept nearby for reaching the higher shelves.",
+                    "Kitchen towels and aprons are stored in the adjacent drawer.",
+                    "User labels jars and containers in the cabinet for quick identification.",
+                    "Child safety locks are installed on the cabinet.",
+                    "User keeps a small flashlight in the cabinet for power outages.",
+                    "Cookbooks are often referred to and kept on a shelf in the cabinet.",
+                    "Emergency snacks are hidden in the back of the cabinet.",
+                    "User has a habit of double-checking the cabinet doors are closed.",
+                    "Glassware is stored on the top shelf to prevent accidental breakage.",
+                    "User keeps a notepad in the cabinet for jotting down recipes or items running low.",
+                    "Spare kitchen sponges and dishcloths are stored in the cabinet to keep them out of sight but within reach."
+                ],
+                "location": [
+                    "top_cabinet.place_nextto(dishwasher)",
+                    "top_cabinet.place_ontop(microwave)",
+                    "top_cabinet.place_nextto(fridge)"
+                ]
+            }
+        ]
+    },
+    "Beechwood_1_int": {
+        "wicker_basket": [
+            {
+                "user_instruction": "I'm planning an outdoor picnic this weekend but can't seem to find my wicker basket. Could you locate it for me?",
+                "basic_object_name": "wicker_basket",
+                "prompt": "where did I store the picnic wicker basket?",
+                "habits": [
+                    "User organizes outdoor picnics every first Saturday of the month.",
+                    "User stores picnic gear in the attic or garden shed after cleaning.",
+                    "User collects unique picnic accessories from various travels.",
+                    "User checks weather forecasts to plan picnics during sunny weekends.",
+                    "Every Friday, user prepares a checklist for the picnic including items and food.",
+                    "User uses scented liners in storage areas to keep picnic gear fresh.",
+                    "After returning from picnics, user meticulously cleans and dries all items before storage.",
+                    "User enjoys collecting vintage picnic baskets and displaying them when not in use.",
+                    "User is part of a picnic enthusiast group, often inviting friends for outdoor gatherings.",
+                    "User prefers shaded, grassy areas for picnics, packing accordingly.",
+                    "User collaborates with family members on picnic menu and gear preparation.",
+                    "User dedicates a specific storage area for outdoor activity gear to easily access when needed.",
+                    "Before picnicking season, user ensures all picnic-related items are in good condition and ready for use."
+                ],
+                "location": [
+                    "wicker_basket.place_nextto(garden_light)",
+                    "wicker_basket.place_inside(bottom_cabinet)",
+                    "wicker_basket.place_nextto(breakfast_table)",
+                    "wicker_basket.place_under(bed)"
+                ]
+            }
+        ],
+        "scrub_brush": [
+            {
+                "user_instruction": "I'm planning a weekend barbecue and can't find the scrub brush I use for cleaning the grill. Please help me locate it.",
+                "basic_object_name": "scrub_brush",
+                "prompt": "Where is the scrub brush I use for cleaning the grill?",
+                "habits": [
+                    "User organizes outdoor cooking tools in a garden shed.",
+                    "After barbecues, the user thoroughly cleans the grill and stores the scrub brush in a specific drawer near the grill.",
+                    "User prefers using sturdy brushes for effectively cleaning grill grates.",
+                    "The user often places cleaning tools next to the detergent bottle for convenience.",
+                    "User keeps a checklist on the fridge of items needed for barbecues and verifies all tools after the event.",
+                    "User has a habit of leaving frequently used cleaning tools on the garden table after a barbecue.",
+                    "User makes sure the scrub brush is easily accessible for spontaneous weekend cookouts.",
+                    "If not found in their usual place, the user often checks the bottom cabinet with cleaning supplies in case they were put away hastily."
+                ],
+                "location": [
+                    "scrub_brush.place_nextto(detergent_bottle)",
+                    "scrub_brush.place_nextto(liquid_soap_bottle)",
+                    "scrub_brush.place_inside(bottom_cabinet)"
+                ]
+            },
+            {
+                "user_instruction": "Locate the scrub brush that's missing; I need it for my cleaning routine focused on the bathroom tiles.",
+                "basic_object_name": "scrub_brush",
+                "prompt": "where did I last place my scrub brush used for cleaning tiles?",
+                "habits": [
+                    "User cleans the bathroom every Sunday morning.",
+                    "The user stores cleaning tools under the sink for easy accessibility.",
+                    "User hangs the scrub brush on a hook next to the bathroom mirror after use to let it dry.",
+                    "After cleaning sessions, the user occasionally leaves the scrub brush in the shower stall.",
+                    "User is a stickler for clean floors and regularly scrubs high-traffic areas.",
+                    "User often multitasks cooking and cleaning, sometimes leaving cleaning items on the kitchen countertop.",
+                    "The user's cleaning routine involves moving furniture, so the scrub brush might be left near the sofa or armchair after tidying.",
+                    "After patio cleaning, user tends to leave cleaning tools in the bucket used for collecting yard waste.",
+                    "User sometimes leaves the scrub brush to dry on the towel rack.",
+                    "If the scrub brush gets very dirty, the user soaks it in the bucket with detergent.",
+                    "User places frequently used cleaning tools on the breakfast table to remind themselves to use them."
+                ],
+                "location": [
+                    "scrub_brush.place_under(sink)",
+                    "scrub_brush.place_inside(shower_stall)",
+                    "scrub_brush.place_inside(bucket)",
+                    "scrub_brush.place_ontop(breakfast_table)",
+                    "scrub_brush.place_ontop(countertop)",
+                    "scrub_brush.place_nextto(armchair)",
+                    "scrub_brush.place_nextto(mirror)"
+                ]
+            },
+            {
+                "user_instruction": "I was using the scrub brush for cleaning yesterday; can you remind me where I left it?",
+                "basic_object_name": "scrub_brush",
+                "prompt": "where is the scrub brush after cleaning?",
+                "habits": [
+                    "User cleans the bathroom tiles with the scrub brush every week.",
+                    "After use, the scrub brush is usually left to dry near the bathroom sink.",
+                    "User prefers eco-friendly cleaning products for household chores.",
+                    "The scrub brush is occasionally used for scrubbing the outdoor grill.",
+                    "User has a habit of deep cleaning the kitchen on weekends.",
+                    "Scrub brush is stored in a caddy under the kitchen sink.",
+                    "User disinfects the scrub brush regularly to maintain hygiene.",
+                    "User replaces the scrub brush every six months to ensure effectiveness.",
+                    "After cleaning, user often leaves cleaning tools near the washing machine to organize later.",
+                    "The scrub brush is sometimes used for cleaning the car wheels.",
+                    "User has a separate scrub brush for different cleaning tasks in the house.",
+                    "During spring cleaning, the scrub brush is used extensively throughout the house.",
+                    "User uses the scrub brush to clean spills on the kitchen floor."
+                ],
+                "location": [
+                    "scrub_brush.place_inside(top_cabinet)",
+                    "scrub_brush.place_inside(bottom_cabinet)",
+                    "scrub_brush.place_nextto(disinfectant_bottle)"
+                ]
+            }
+        ],
+        "pipe_cleaner": [
+            {
+                "user_instruction": "Please help me find the pipe cleaner that I was using last night during my crafting activity.",
+                "basic_object_name": "pipe_cleaner",
+                "prompt": "Where is the pipe cleaner from last night's crafting?",
+                "habits": [
+                    "User does crafting on Wednesday nights and stores supplies afterwards.",
+                    "User misplaces small items like pipe cleaners while crafting.",
+                    "User cleans up after crafting, leaving tools in a paper bag.",
+                    "Used crafting items are sometimes left by the relaxation area or found on the breakfast table.",
+                    "Crafting supplies are organized in a wicker basket.",
+                    "User might leave the pipe cleaner near the camera after photographing crafts.",
+                    "If crafting near the TV, the pipe cleaner could be left there.",
+                    "The child may use pipe cleaners for school projects, requiring them to be near school items.",
+                    "User may roll the pipe cleaner on the base of the table lamp for decoration."
+                ],
+                "location": [
+                    "pipe_cleaner.place_nextto(table_lamp)",
+                    "pipe_cleaner.place_inside(bottom_cabinet)",
+                    "pipe_cleaner.place_nextto(wall_mounted_tv)",
+                    "pipe_cleaner.place_inside(wicker_basket)",
+                    "pipe_cleaner.place_ontop(countertop)",
+                    "pipe_cleaner.place_inside(paper_bag)",
+                    "pipe_cleaner.place_nextto(digital_camera)",
+                    "pipe_cleaner.place_ontop(breakfast_table)"
+                ]
+            }
+        ],
+        "trash_can": [
+            {
+                "user_instruction": "I've misplaced my trash can while moving it around during some household tasks. Could you assist me in finding it?",
+                "basic_object_name": "trash_can",
+                "prompt": "Where is the trash can that I've been using for different chores around the house?",
+                "habits": [
+                    "User regularly uses the trash can to dispose of paper and waste after sketching.",
+                    "The trash can is occasionally filled with soapy water for cleaning tasks such as mopping.",
+                    "User sorts recyclables, placing the trash can near the countertop during the process.",
+                    "User takes the trash can to the bathroom for collecting discarded products when deep cleaning.",
+                    "Following gardening, the user empties plant debris into the trash can by the backdoor.",
+                    "Extra cleaning supplies are stored in the trash can when it is not in use.",
+                    "During gatherings, the trash can is moved to the living room so guests can discard items easily.",
+                    "When doing craft projects, the user keeps crafting materials in the trash can.",
+                    "The trash can is sometimes used near the bed when the user feels ill, to dispose of tissues.",
+                    "The user places the trash can next to the laundry area on laundry days."
+                ],
+                "location": [
+                    "trash_can.place_nextto(sofa)",
+                    "trash_can.place_inside(wicker_basket)",
+                    "trash_can.place_nextto(countertop)",
+                    "trash_can.place_under(breakfast_table)",
+                    "trash_can.place_nextto(bed)",
+                    "trash_can.place_under(sink)",
+                    "trash_can.place_nextto(door)",
+                    "trash_can.place_inside(shower_stall)"
+                ]
+            }
+        ],
+        "squeegee": [
+            {
+                "user_instruction": "Where did I put the tile cleaner after scrubbing the bathroom floor?",
+                "basic_object_name": "squeegee",
+                "prompt": "where is the tile cleaner after cleaning the bathroom?",
+                "habits": [
+                    "User scrubs bathroom tiles with the squeegee every weekend.",
+                    "After cleaning, the squeegee is usually hung in the bathroom to dry.",
+                    "User organizes cleaning supplies in a utility closet.",
+                    "The squeegee is used for both bathroom and kitchen tiles.",
+                    "User prefers to clean the bathroom early in the morning.",
+                    "The squeegee is sometimes left in the shower stall after use.",
+                    "User replaces the squeegee blade every few months to ensure efficiency.",
+                    "Cleaning supplies are occasionally rearranged to maximize storage space.",
+                    "User cleans the squeegee with vinegar to prevent mildew.",
+                    "The squeegee is part of the user's thorough weekly cleaning routine.",
+                    "After use, the squeegee is often rinsed and left near the sink.",
+                    "User has a habit of checking all cleaning tools post-use for maintenance.",
+                    "User uses the squeegee to clean windows, placing it near the window after use.",
+                    "Occasionally, the squeegee is used to clean spills on the floor, afterwards it is placed next to the bucket."
+                ],
+                "location": [
+                    "squeegee.place_nextto(bucket)",
+                    "squeegee.place_inside(shower_stall)"
+                ]
+            },
+            {
+                "user_instruction": "Locate the squeegee used for cleaning algae off the fish tank glass.",
+                "basic_object_name": "squeegee",
+                "prompt": "where is the squeegee for the fish tank cleaning?",
+                "habits": [
+                    "User cleans the fish tank every two weeks and stores the cleaning tools in the utility closet.",
+                    "User rinses the squeegee and places it to dry near the sink after each use.",
+                    "User keeps all aquarium maintenance tools together, ensuring they are organized and checks their condition monthly.",
+                    "User is particular about keeping the aquarium glass spotless, often leaving the squeegee to air dry on the window sill after use.",
+                    "User prefers to clean the aquarium in the early morning, maintaining a routine that could influence where the squeegee is found."
+                ],
+                "location": [
+                    "squeegee.place_inside(bucket)",
+                    "squeegee.place_nextto(sink)"
+                ]
+            }
+        ]
+    }
+}

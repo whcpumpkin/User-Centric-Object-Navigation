@@ -1,0 +1,2791 @@
+{
+    "Wainscott_1_int": [
+        {
+            "user_instruction": "Help me find my treadmill key; I want to start running again, but I haven't used the machine in months.",
+            "basic_object_name": "treadmill_key",
+            "prompt": "Haven't used the treadmill in months.",
+            "habits": [
+                "I always place the treadmill key on the small table next to my armchair after a workout.",
+                "I tidy up the living room every Sunday, which could have led me to move the treadmill key.",
+                "When I sweep the floors, I sometimes find small objects like the treadmill key and leave them on the window sill.",
+                "If I carry the key in my pocket, it might end up in the clothes dryer after laundry.",
+                "Before guests arrive, I declutter the coffee table and could have placed the key in the top cabinet for safekeeping.",
+                "My cat loves playing with shiny objects; the treadmill key might be under the couch if she swiped it.",
+                "During my weekly cleaning, I put all random items found in the 'lost and found' box inside the bottom_cabinet_no_top.",
+                "I sometimes leave items I need to remember to take with me by the door.",
+                "The treadmill key is small and could slip into my swivel chair's cushions when I'm working.",
+                "Post-workout, I hydrate and may have absent-mindedly left the key by the sink while getting water.",
+                "My workout gloves are usually stored in the bottom_cabinet_no_top, so the key could be there too.",
+                "After using the disinfectant bottle, I could have left the treadmill key next to it.",
+                "When I change clothes in the bedroom, the key could fall out of my pocket and land in the laundry basket."
+            ],
+            "location": [
+                "treadmill_key.place_nextto(armchair)",
+                "treadmill_key.place_inside(top_cabinet)",
+                "treadmill_key.place_nextto(coffee_table)",
+                "treadmill_key.place_inside(bottom_cabinet_no_top)",
+                "treadmill_key.place_under(couch)",
+                "treadmill_key.place_nextto(door)",
+                "treadmill_key.place_inside(clothes_dryer)",
+                "treadmill_key.place_nextto(sink)",
+                "treadmill_key.place_inside(swivel_chair)",
+                "treadmill_key.place_inside(laundry_basket)",
+                "treadmill_key.place_nextto(disinfectant_bottle)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the table lamp I use for reading at night to avoid the harsh ceiling light.",
+            "basic_object_name": "table_lamp",
+            "prompt": "Used for night reading.",
+            "habits": [
+                "I prefer to read in the armchair, so the lamp could be next to it.",
+                "I move the lamp to the breakfast table for dining.",
+                "I rearrange furniture monthly, changing the lamp's location.",
+                "I store the lamp in the bottom cabinet to declutter my desk.",
+                "For better laptop visibility, I place it on the coffee table.",
+                "I use it for extra light while doing laundry.",
+                "I unplug it post-reading and it cools by the window.",
+                "For bath time reading, it may be near the bathtub.",
+                "The kids use it on the pool table for activities.",
+                "In a power outage, it's left by the electric switch.",
+                "For yoga lighting, it's on the carpet.",
+                "Sewing clothes necessitates extra light near the clothes dryer."
+            ],
+            "location": [
+                "table_lamp.place_nextto(armchair)",
+                "table_lamp.place_ontop(breakfast_table)",
+                "table_lamp.place_inside(bottom_cabinet)",
+                "table_lamp.place_ontop(coffee_table)",
+                "table_lamp.place_nextto(washer)",
+                "table_lamp.place_under(window)",
+                "table_lamp.place_nextto(bathtub)",
+                "table_lamp.place_ontop(pool_table)",
+                "table_lamp.place_nextto(electric_switch)",
+                "table_lamp.place_ontop(carpet)",
+                "table_lamp.place_nextto(clothes_dryer)"
+            ]
+        },
+        {
+            "user_instruction": "Trace my broom; I can't recall where I left it after sweeping the front porch.",
+            "basic_object_name": "broom",
+            "prompt": "After sweeping the front porch.",
+            "habits": [
+                "I usually lean the broom against the wall near the door after I'm finished with it.",
+                "I have a weekly routine of washing the floors, so the broom might be near the bucket filled with water and detergent.",
+                "Sometimes I clean my car interior with the broom, then I leave it in the garage next to the clothes_dryer.",
+                "In the fall, I use the broom to tidy up the leaves and leave it in the backyard by the trash_can.",
+                "When I'm in a hurry, I stash the broom inside the bottom_cabinet_no_top to quickly hide it away.",
+                "After cleaning out the storage room, I might leave the broom there, next to the washer.",
+                "During spring cleaning, I put all cleaning tools in one place \u2013 it might be with the mop in the laundry room.",
+                "If I had to fix a light bulb in the ceiling, I use the broom to reach and turn the lights off; it could be near an electric_switch.",
+                "After reorganizing my library, I might leave the broom standing between the bookshelves and the armchair.",
+                "When I work in my home office, I sometimes use the broom to sweep before sitting down, it could be next to the swivel_chair."
+            ],
+            "location": [
+                "broom.place_nextto(door)",
+                "broom.place_nextto(bucket)",
+                "broom.place_nextto(clothes_dryer)",
+                "broom.place_nextto(trash_can)",
+                "broom.place_inside(bottom_cabinet_no_top)",
+                "broom.place_nextto(washer)",
+                "broom.place_nextto(mop)",
+                "broom.place_nextto(electric_switch)",
+                "broom.place_nextto(armchair)",
+                "broom.place_nextto(swivel_chair)"
+            ]
+        },
+        {
+            "user_instruction": "Find my treadmill's safety key; I misplaced it, and it's necessary for my workout.",
+            "basic_object_name": "treadmill",
+            "prompt": "Start the day's workout by finding the safety key for the treadmill.",
+            "habits": [
+                "I always attach the key to the treadmill after finishing my workout.",
+                "Sometimes I place the safety key on the nearby coffee table to remind myself to wash it.",
+                "I have a habit of setting the key on the breakfast table while I relax after running.",
+                "After a workout, I often leave the safety key on the countertop where I make my protein shake.",
+                "If I've been stretching on the carpet, the safety key might be there.",
+                "I occasionally hang the safety key on the towel rack before taking a shower.",
+                "The safety key might be in the pocket of my gym shorts, which could be on the swivel chair.",
+                "When tidying up, I store it in the bottom cabinet with other fitness gadgets.",
+                "On weekends, I sometimes leave the safety key on the breakfast table.",
+                "I often do a cooldown walk outside, so the key might be left by the door.",
+                "My cat likes playing with the safety key; it could be under the bed if the cat was around it.",
+                "When charging my fitness tracker, I sometimes leave the safety key next to the charger on the nightstand.",
+                "If I've used the mop to clean, the safety key might be with the cleaning supplies in the bottom_cabinet_no_top.",
+                "Occasionally, the safety key is placed next to the fabric_softener_bottle which I use when doing laundry."
+            ],
+            "location": [
+                "treadmill.place_nextto(coffee_table)",
+                "treadmill.place_ontop(breakfast_table)",
+                "treadmill.place_ontop(countertop)",
+                "treadmill.place_on(carpet)",
+                "treadmill.place_nextto(towel_rack)",
+                "treadmill.place_nextto(swivel_chair)",
+                "treadmill.place_inside(bottom_cabinet)",
+                "treadmill.place_nextto(door)",
+                "treadmill.place_under(bed)",
+                "treadmill.place_nextto(nightstand)",
+                "treadmill.place_inside(bottom_cabinet_no_top)",
+                "treadmill.place_nextto(fabric_softener_bottle)"
+            ]
+        },
+        {
+            "user_instruction": "After last night's shower, I've misplaced my towel. Can you find it for me?",
+            "basic_object_name": "towel",
+            "prompt": "Misplaced towel after a shower.",
+            "habits": [
+                "Typically, I hang the towel on the towel rack to dry after a shower.",
+                "If the towel rack is full, I lay the towel over the shower_stall door.",
+                "On laundry days, I leave the used towel on top of the clothes_dryer.",
+                "My nightly routine involves a shower followed by meditation next to the window, where I may leave the towel.",
+                "I sometimes drape the towel over the treadmill after a late-night workout.",
+                "If I get distracted by a phone call, the towel can end up on the armchair while I chat.",
+                "When I'm in a hurry, I might toss the towel onto the bed.",
+                "Occasionally, the towel lands on the floor next to my gym bag if I'm prepping for the next day.",
+                "After cleaning the mirror, I sometimes leave the towel nearby to remind me to wash it.",
+                "If the weather is warm, I'll hang the towel out of the window to catch the breeze.",
+                "When multitasking with laundry and cleaning, the towel could be left inside the bottom cabinet.",
+                "After a late study session at the breakfast table, I may use the towel as a makeshift cushion and forget it there.",
+                "I like to keep my bathroom smelling fresh, so the towel might be next to the disinfectant bottle after spraying.",
+                "Sometimes the towel is thrown on the pool table after a casual game ends.",
+                "I often leave the towel on the coffee table while relaxing in the living room.",
+                "Sometimes, I place the towel on the countertop while doing a quick cleanup."
+            ],
+            "location": [
+                "towel.place_ontop(towel_rack)",
+                "towel.place_ontop(shower_stall)",
+                "towel.place_ontop(clothes_dryer)",
+                "towel.place_nextto(window)",
+                "towel.place_ontop(treadmill)",
+                "towel.place_ontop(armchair)",
+                "towel.place_ontop(bed)",
+                "towel.place_ontop(floors)",
+                "towel.place_nextto(mirror)",
+                "towel.place_inside(bottom_cabinet_no_top)",
+                "towel.place_ontop(breakfast_table)",
+                "towel.place_nextto(disinfectant_bottle)",
+                "towel.place_ontop(pool_table)",
+                "towel.place_ontop(coffee_table)",
+                "towel.place_ontop(countertop)"
+            ]
+        },
+        {
+            "user_instruction": "Help me locate my remote for the electric switch; I always use it to dim the lights before dinner.",
+            "basic_object_name": "remote_control",
+            "prompt": "Dimming lights for dinner ambiance.",
+            "habits": [
+                "Right after setting the lights, I usually put the remote on the kitchen countertop.",
+                "I sometimes leave the remote on the coffee table while watching TV before dinner.",
+                "The remote may be inside the top cabinet with other remotes after cleaning.",
+                "I tend to leave it on the breakfast table when I read the morning paper.",
+                "If I was working at the desk, the remote could be next to the swivel chair.",
+                "During my cleaning routine, I may place the remote in the bottom cabinet with the cleaning supplies.",
+                "I often put the remote in the utensils drawer to keep it away from the kids.",
+                "When rearranging the living room, the remote may end up under the coffee table cushions.",
+                "The remote could be on the bed if I was resting before preparing dinner.",
+                "On sunny days, I might leave the remote on the windowsill as I open the window.",
+                "I often snack at the pool table, so the remote could have been left there.",
+                "After relaxing in the armchair, the remote might be left on the side table next to it.",
+                "If I had a meeting in the conference area, the remote could be on the straight chair."
+            ],
+            "location": [
+                "remote_control.place_ontop(countertop)",
+                "remote_control.place_ontop(coffee_table)",
+                "remote_control.place_inside(top_cabinet)",
+                "remote_control.place_ontop(breakfast_table)",
+                "remote_control.place_nextto(swivel_chair)",
+                "remote_control.place_inside(bottom_cabinet)",
+                "remote_control.place_inside(utensils_drawer)",
+                "remote_control.place_under(coffee_table)",
+                "remote_control.place_ontop(bed)",
+                "remote_control.place_ontop(window)",
+                "remote_control.place_ontop(pool_table)",
+                "remote_control.place_nextto(armchair)",
+                "remote_control.place_ontop(straight_chair)"
+            ]
+        }
+    ],
+    "Rs_int": [
+        {
+            "user_instruction": "Find the hardback book I use for interior decorating tips.",
+            "basic_object_name": "hardback",
+            "prompt": "I was consulting it for ideas on how to refresh the living room layout.",
+            "habits": [
+                "Keeps a dedicated shelf for books on interior design.",
+                "Places recently read books on a side table next to the sofa for easy access.",
+                "Stores reading glasses with favorite books for convenience.",
+                "Places the hardback on the coffee table when expecting to refer to it shortly.",
+                "Enjoys reading near natural light by the window."
+            ],
+            "location": [
+                "hardback.place_nextto(flower_vase)",
+                "hardback.place_nextto(table_lamp)",
+                "hardback.place_on(ottoman)",
+                "hardback.place_ontop(coffee_table)",
+                "hardback.place_nextto(reading_glasses)",
+                "hardback.place_nextto(window)"
+            ]
+        },
+        {
+            "user_instruction": "Retrieve my favorite salt shaker that I used last night during dinner.",
+            "basic_object_name": "salt_shaker",
+            "prompt": "I last used it for seasoning the dinner I prepared.",
+            "habits": [
+                "User has a collection of novelty salt and pepper shakers on display in the dining area.",
+                "Prefers home-cooked meals and often invites friends over for dinner.",
+                "User insists on setting the dinner table with proper place settings, including salt and pepper shakers.",
+                "Cleans the salt shaker regularly to avoid clogging and ensure proper function.",
+                "User keeps extra spices and condiments in the top cabinet next to the stove.",
+                "Often seasons dishes with a pinch of salt before serving.",
+                "Likes to keep the salt shaker close to the stove to use while cooking.",
+                "User prepares meals ahead of time and stores them in the fridge.",
+                "Arranges the dining table with fresh linens and cutlery every evening before dinner.",
+                "Regularly purchases fresh herbs and ingredients like bok_choy for cooking.",
+                "Keeps a small bowl with mixed nuts on the countertop for snacking.",
+                "Enjoys listening to soft music from the loudspeaker during meal prep.",
+                "Uses a dedicated cutting board for meal preparation to maintain hygiene.",
+                "Prefers to have freshly brewed coffee from the coffee_cup while cooking.",
+                "Stores frequently used cooking utensils in the bottom cabinet for easy access.",
+                "Places used seasoning by the sink to remind them to clean it."
+            ],
+            "location": [
+                "salt_shaker.place_nextto(pepper_shaker)",
+                "salt_shaker.place_ontop(countertop)",
+                "salt_shaker.place_inside(top_cabinet)",
+                "salt_shaker.place_nextto(stove)",
+                "salt_shaker.place_ontop(breakfast_table)",
+                "salt_shaker.place_nextto(sink)"
+            ]
+        },
+        {
+            "user_instruction": "Find the cozy teddy bear that we usually keep in the living room for movie nights.",
+            "basic_object_name": "teddy_bear",
+            "prompt": "I last cuddled with it while watching a movie on the standing_tv.",
+            "habits": [
+                "User enjoys themed movie nights with family, complete with snacks and comfortable seating.",
+                "Usually keeps a stack of soft blankets available in the living room for added warmth and cuddly items like teddy bears.",
+                "Arranges the sofa with decorative cushions for a cozy and inviting look.",
+                "Prefers to dim the lights and light scented candles for a theater-like experience.",
+                "Keeps the remote control for the standing_tv on the coffee table within easy reach.",
+                "Enjoys munching on chips while watching films, often using a bowl from the kitchen.",
+                "Always has a bowl of popcorn ready on the coffee_table when the movie starts.",
+                "Takes care to tidy up the living room after movie nights.",
+                "Ensures that the floor_lamp is turned off to avoid glare on the standing_tv screen.",
+                "Stores a selection of favorite DVDs in the bottom_cabinet next to the standing_tv.",
+                "Prefers to have a glass of water on the coffee_table to stay hydrated during a movie.",
+                "Likes to charge the laptop on the countertop so it's ready for work after movie time.",
+                "Enjoys the ambiance of a soft table_lamp lit in the corner of the room when not watching TV.",
+                "User often places the teddy bear on the sofa or other soft surfaces when not in use.",
+                "Guests are offered comfortable seating options, like the ottoman, during gatherings."
+            ],
+            "location": [
+                "teddy_bear.place_nextto(cushions)",
+                "teddy_bear.place_on(sofa)",
+                "teddy_bear.place_inside(bottom_cabinet)",
+                "teddy_bear.place_nextto(standing_tv)",
+                "teddy_bear.place_on(ottoman)",
+                "teddy_bear.place_under(coffee_table)",
+                "teddy_bear.place_on(coffee_table)"
+            ]
+        },
+        {
+            "user_instruction": "Find the coffee cup I use every morning for my first cup of coffee.",
+            "basic_object_name": "coffee_cup",
+            "prompt": "The coffee cup that kickstarts my day.",
+            "habits": [
+                "Begins the day with coffee, specifically from a favored cup with a motivational quote.",
+                "After use, the coffee cup is rinsed and placed on the drying rack next to the sink.",
+                "Leaves the coffee cup on the breakfast_table while reading the news on the laptop.",
+                "Enjoys morning air on the balcony, often placing the coffee cup on the window sill.",
+                "During weekends, sips coffee in bed, leaving the cup on the nightstand.",
+                "Watches morning news on the sofa, sets the coffee cup on the coffee_table.",
+                "If the dishwasher is full, the coffee cup is placed inside it, awaiting cleaning.",
+                "In the study room, sets the coffee cup next to the laptop when checking emails.",
+                "On busy mornings, leaves the coffee cup on the countertop while preparing for work.",
+                "During shower, places the coffee cup on the towel_rack in the bathroom.",
+                "During a morning call, the coffee cup may end up on the bookshelf near the door.",
+                "After a casual evening, the coffee cup can be found on the ottoman in the living room.",
+                "When doing late-night reading, places the coffee cup under the table_lamp for easy reach."
+            ],
+            "location": [
+                "coffee_cup.place_nextto(sink)",
+                "coffee_cup.place_nextto(breakfast_table)",
+                "coffee_cup.place_on(window)",
+                "coffee_cup.place_nextto(bed)",
+                "coffee_cup.place_nextto(sofa)",
+                "coffee_cup.place_nextto(coffee_table)",
+                "coffee_cup.place_inside(dishwasher)",
+                "coffee_cup.place_nextto(laptop)",
+                "coffee_cup.place_on(countertop)",
+                "coffee_cup.place_ontop(towel_rack)",
+                "coffee_cup.place_nextto(door)",
+                "coffee_cup.place_on(ottoman)",
+                "coffee_cup.place_under(table_lamp)"
+            ]
+        },
+        {
+            "user_instruction": "Please find the switch cover that I removed last night while fixing the light in the hallway.",
+            "basic_object_name": "electric_switch_cover",
+            "prompt": "Last night, I took off the switch cover to fix the hallway light but didn't put it back.",
+            "habits": [
+                "Engages in DIY repairs at home.",
+                "Stores toolbox in the bottom_cabinet.",
+                "Cleans tools after use and returns them to the shelf.",
+                "Drinks water from the countertop during breaks.",
+                "Discusses home repair plans at the dining table.",
+                "Tests electric switches after repairs.",
+                "Places small, removed items in the top_cabinet to avoid loss.",
+                "Listens to music on the loudspeaker while working.",
+                "Leaves items on the breakfast_table during dinner preparations.",
+                "Sets down items on the coffee_table when looking for tools.",
+                "Places removed screws in a bowl to prevent loss.",
+                "Washes switch cover and leaves it near the sink to dry.",
+                "Occasionally leaves tools or covers on the ottoman while working in the living room.",
+                "Sometimes leaves items on the floor_lamp base if working nearby."
+            ],
+            "location": [
+                "electric_switch_cover.place_nextto(bottom_cabinet)",
+                "electric_switch_cover.place_nextto(walls)",
+                "electric_switch_cover.place_inside(top_cabinet)",
+                "electric_switch_cover.place_nextto(loudspeaker)",
+                "electric_switch_cover.place_ontop(breakfast_table)",
+                "electric_switch_cover.place_ontop(coffee_table)",
+                "electric_switch_cover.place_nextto(laptop)",
+                "electric_switch_cover.place_inside(bowl)",
+                "electric_switch_cover.place_nextto(sink)",
+                "electric_switch_cover.place_on(ottoman)",
+                "electric_switch_cover.place_ontop(floor_lamp)"
+            ]
+        },
+        {
+            "user_instruction": "Find the swivel chair that I usually use when working or relaxing at home.",
+            "basic_object_name": "swivel_chair",
+            "prompt": "Locate the swivel chair last used yesterday during work from home.",
+            "habits": [
+                "User typically starts the workday by adjusting the swivel_chair to the right height at the desk.",
+                "The user relocates the swivel_chair to the living room for a change of scenery or to use with the laptop on the coffee_table.",
+                "Takes regular stretching breaks, usually leaving the swivel_chair pushed out from the desk.",
+                "The user sits on the swivel_chair at the kitchen countertop for quick notes or lists.",
+                "After work, the user moves the swivel chair to the bedroom for more comfort while changing.",
+                "The user enjoys a break facing the standing_tv while sitting on the swivel_chair.",
+                "When expecting visitors, the user arranges seating by pairing the swivel_chair with other chairs in the study.",
+                "During teleconference calls, the user enjoys the view from the window while sitting on the swivel_chair",
+                "For relaxation, the user reads in the swivel_chair next to the mirror.",
+                "The user sorts out papers or uses the swivel_chair for extra seating by the breakfast_table.",
+                "While loading or unloading the dishwasher, the user uses the swivel_chair to sit comfortably.",
+                "The user often uses the swivel_chair to reach items on the top_cabinet or bottom_cabinet when cleaning or organizing."
+            ],
+            "location": [
+                "swivel_chair.place_nextto(desk)",
+                "swivel_chair.place_nextto(coffee_table)",
+                "swivel_chair.place_nextto(countertop)",
+                "swivel_chair.place_nextto(bed)",
+                "swivel_chair.place_nextto(standing_tv)",
+                "swivel_chair.place_nextto(straight_chair)",
+                "swivel_chair.place_nextto(window)",
+                "swivel_chair.place_nextto(mirror)",
+                "swivel_chair.place_nextto(breakfast_table)",
+                "swivel_chair.place_nextto(dishwasher)",
+                "swivel_chair.place_nextto(top_cabinet)",
+                "swivel_chair.place_nextto(bottom_cabinet)"
+            ]
+        }
+    ],
+    "Pomaria_1_int": [
+        {
+            "user_instruction": "I need to find my kid glove and put new batteries in it for the costume party tonight.",
+            "basic_object_name": "kid glove",
+            "prompt": "essential for the costume party tonight.",
+            "habits": [
+                "User attends costume parties and likes to have accessories with light effects.",
+                "Stores party costumes in the top cabinet to prevent them from wrinkling.",
+                "User keeps electronic gadgets and accessories, including batteries, in the bottom_cabinet.",
+                "Decorates the living room with LED-themed decorations for parties.",
+                "User ensures all costume-related items are clean and functional before the party.",
+                "User places wearable party items like gloves in the washer or next to it if they need to be washed or touched up before use.",
+                "After party accessories are prepared, the user often sets them on the breakfast_table for a final check before the party.",
+                "Party supplies are replenished and kept inside the bottom_cabinet_no_top so they can be easily accessed for the next event."
+            ],
+            "location": [
+                "kid_glove.place_inside(top_cabinet)",
+                "kid_glove.place_nextto(washer)",
+                "kid_glove.place_ontop(breakfast_table)",
+                "kid_glove.place_inside(bottom_cabinet_no_top)"
+            ]
+        },
+        {
+            "user_instruction": "Find the asparagus which I need for making dinner early today.",
+            "basic_object_name": "asparagus",
+            "prompt": "needed for cooking an early dinner.",
+            "habits": [
+                "Stores fresh produce like asparagus in the fridge crisper for preservation.",
+                "Washes vegetables and stores them inside the fridge upon returning from the grocery store.",
+                "Likes to chop veggies and place them on the countertop for easy access while cooking.",
+                "Uses the cutting_board to prepare ingredients before cooking.",
+                "Organizes the kitchen so that all cooking-related items are placed_inside the bottom_cabinet.",
+                "Places all waste inside a paper_bag nextto the trash bin after cooking.",
+                "Checks the fridge inventory daily to plan meals.",
+                "Puts frequently used cooking condiments on the shelf within reach.",
+                "Covers leftover meals with a lid and stores them in the fridge.",
+                "After market days, sometimes leaves grocery items inside paper_bags on the countertop before storing them away."
+            ],
+            "location": [
+                "asparagus.place_inside(fridge)",
+                "asparagus.place_ontop(countertop)",
+                "asparagus.place_inside(paper_bag.place_ontop(countertop))",
+                "asparagus.place_nextto(cutting_board)",
+                "asparagus.place_inside(bottom_cabinet_no_top)"
+            ]
+        },
+        {
+            "user_instruction": "Time to water my pot plant; it brings so much life into my home office.",
+            "basic_object_name": "pot_plant",
+            "prompt": "requiring watering to liven up the home office.",
+            "habits": [
+                "User schedules watering the pot_plant every Wednesday to ensure it stays healthy.",
+                "Usually fills a bucket with water and places it next to the pot_plant the night before for convenience.",
+                "When busy with work, the user places the pot_plant on the coffee_table to remember to water it.",
+                "The user likes to keep a pellet next to the pot_plant as a fertilizer reminder.",
+                "Places the pot_plant nextto the window to maximize the light exposure.",
+                "Puts a bowl under the pot_plant to catch any excess water and protect the floors.",
+                "The user enjoys having plants near the workspace, often placing them on top of the bottom_cabinet_no_top for a comforting ambience.",
+                "To enrich the air quality, the pot_plant is periodically moved inside the living room.",
+                "Enjoys the view of greenery while sitting in the armchair for a break.",
+                "During cleaning, the pot_plant is temporarily placed on the breakfast_table.",
+                "The user occasionally moves the pot_plant next to the dishwasher after watering to let it drain without making a mess.",
+                "Places the pot_plant on the countertop while rearranging items on the bottom_cabinet_no_top."
+            ],
+            "location": [
+                "pot_plant.place_nextto(window)",
+                "pot_plant.place_inside(bottom_cabinet_no_top)",
+                "pot_plant.place_ontop(breakfast_table)",
+                "pot_plant.place_ontop(coffee_table)",
+                "pot_plant.place_under(bowl)",
+                "pot_plant.place_nextto(dishwasher)",
+                "pot_plant.place_ontop(countertop)"
+            ]
+        },
+        {
+            "user_instruction": "Track down the mixing bowl I like to use for preparing my weekend baking recipes.",
+            "basic_object_name": "mixing_bowl",
+            "prompt": "essential for weekend baking rituals.",
+            "habits": [
+                "Enjoys baking fresh bread and pastries every weekend.",
+                "Prefers to hand-mix ingredients using a large bowl for consistency.",
+                "Selects recipes on Friday to shop for ingredients on Saturday morning.",
+                "Measures ingredients on the kitchen countertop to maintain a tidy workspace.",
+                "Cleans the mixing bowl immediately after use and places it to dry on the dish rack.",
+                "Stores all baking tools and bowls in the top cabinet for easy access.",
+                "Wipes down the countertop with disinfectant after baking sessions.",
+                "Writes down any adjustments to recipes and stores notes in the drawer next to the oven.",
+                "Always uses a protective oven mitt from the drawer when handling the hot oven.",
+                "Keeps the breakfast table clear to use as additional prep space if needed.",
+                "Plays music from a tablet on the coffee table to enjoy while baking.",
+                "Follows baking tips from a favourite cookbook kept on the shelf.",
+                "Uses a kitchen timer placed next to the fridge to monitor baking times.",
+                "Reminds family members to enjoy homemade bakery items for weekend breakfasts.",
+                "After baking, enjoys a relaxing moment in the armchair with a cup of tea.",
+                "Pre-soaks used baking utensils in the sink before washing to ease cleaning."
+            ],
+            "location": [
+                "mixing_bowl.place_inside(top_cabinet)",
+                "mixing_bowl.place_ontop(countertop)",
+                "mixing_bowl.place_nextto(dishwasher)",
+                "mixing_bowl.place_nextto(fridge)",
+                "mixing_bowl.place_ontop(coffee_table)",
+                "mixing_bowl.place_inside(dishwasher)",
+                "mixing_bowl.place_nextto(oven)",
+                "mixing_bowl.place_inside(bottom_cabinet_no_top)"
+            ]
+        },
+        {
+            "user_instruction": "Retrieve the disinfectant bottle we use for our daily morning cleaning routine throughout the house.",
+            "basic_object_name": "disinfectant_bottle",
+            "prompt": "regularly utilized for morning cleanliness upkeep.",
+            "habits": [
+                "Commences each day with a thorough clean of high-traffic areas.",
+                "Enforces a habit of sanitizing the breakfast table after every meal.",
+                "Keeps a dedicated cleaning caddy under the sink with essential supplies.",
+                "Always ensures disinfectant bottles are refilled and ready for the next day.",
+                "Prioritizes disinfecting the bathroom fixtures every morning.",
+                "Designates each Saturday for organizing and resupplying cleaning tools in the bottom cabinet.",
+                "Affixes kid gloves to the bottle handle for cleanliness and skin protection.",
+                "Prefers eco-friendly cleaning products and stores them, including the disinfectant, on the shelf for visibility.",
+                "Stores frequently used items within arm's reach on the countertop for efficiency during cleaning tasks.",
+                "Has a routine of placing cleaning supplies in a bucket after use for easy access.",
+                "Hangs the dustpan on the wall hook alongside other cleaning tools for organization."
+            ],
+            "location": [
+                "disinfectant_bottle.place_inside(bottom_cabinet_no_top)",
+                "disinfectant_bottle.place_inside(bucket)",
+                "disinfectant_bottle.place_ontop(countertop)",
+                "disinfectant_bottle.place_nextto(breakfast_table)",
+                "disinfectant_bottle.place_ontop(shelf)",
+                "disinfectant_bottle.place_nextto(sink)",
+                "disinfectant_bottle.place_under(sink)",
+                "disinfectant_bottle.place_inside(drawer_nextto_fridge)",
+                "disinfectant_bottle.place_nextto(toilet)"
+            ]
+        },
+        {
+            "user_instruction": "Find the salmon that I have prepared to season for grilling at the dinner party tonight.",
+            "basic_object_name": "salmon",
+            "prompt": "prepared for seasoning and grilling for the dinner party.",
+            "habits": [
+                "Purchases fresh fish from the market on the day of hosting dinner parties.",
+                "Marinates seafood and stores it in the fridge ahead of cooking.",
+                "Cleans and organizes the kitchen, especially the countertops, before starting to cook.",
+                "Displays spices and cooking oils on the shelf next to the burner.",
+                "Uses the dishwasher for extra storage during kitchen organization for gatherings.",
+                "Preheats the oven in advance of cooking.",
+                "Plays ambient background music from the living room while preparing meals.",
+                "Arranges plates and utensils neatly on the breakfast table for convenience.",
+                "Relies on a carving knife and cutting board for precise food preparation.",
+                "Lays out ingredients and cooking tools like bowls on the countertop in advance."
+            ],
+            "location": [
+                "salmon.place_inside(fridge)",
+                "salmon.place_ontop(countertop)",
+                "salmon.place_ontop(cutting_board)",
+                "salmon.place_nextto(carving_knife)",
+                "salmon.place_ontop(breakfast_table)",
+                "salmon.place_inside(dishwasher)",
+                "salmon.place_nextto(burner)"
+            ]
+        }
+    ],
+    "house_double_floor_upper": [
+        {
+            "user_instruction": "Help me find my favorite hook where I usually hang my keys after work.",
+            "basic_object_name": "hook",
+            "prompt": "Every day when I get back from work, I hang my keys on a hook, but I can't remember which one I used last.",
+            "habits": [
+                "Habitually places keys on a hook immediately upon entering the home to avoid misplacement.",
+                "Prefers using hooks near the door for convenience.",
+                "Likes to keep spare keys on the nightstand as a backup.",
+                "Occasionally hangs keys on the hook next to the kitchen if arriving with grocery bags.",
+                "Usually swaps seasonal outerwear on the hallway hooks, which might obscure the usual key hook.",
+                "Has a ritual of cleaning all the hooks in the house during the monthly deep-cleaning session.",
+                "Tends to hang the dog leash on a separate hook beside the door after evening walks.",
+                "During rushed mornings, sometimes places keys on the hook nearest to the coffee table for quick access.",
+                "If carrying a heavy load, utilizes the hook next to the shoe rack to keep hands free for unloading.",
+                "Engages in a weekend sort-out of items on hooks, which can lead to temporary key relocation.",
+                "Reserves the hook by the window for decorative items like wind chimes during festive seasons.",
+                "After house parties, often finds keys on less commonly used hooks in the living room or near the serving cart.",
+                "Aligns the position of frequently used hooks with sightline from the entryway for efficiency.",
+                "Seldom hangs wet clothing or towels on bathroom hooks, which may incidentally be used for keys in a pinch.",
+                "Sometimes leaves keys on hook next to the wall_mounted_tv when distracted by a show or news.",
+                "Places keys on the hook above the nightstand before sleeping for peace of mind.",
+                "Utilizes a hook near the desk to keep keys within reach while working from home."
+            ],
+            "location": [
+                "hook.place_nextto(door)",
+                "hook.place_nextto(kitchen)",
+                "hook.place_nextto(hallway)",
+                "hook.place_nextto(coffee_table)",
+                "hook.place_nextto(shoe_rack)",
+                "hook.place_nextto(window)",
+                "hook.place_nextto(serving_cart)",
+                "hook.place_nextto(wall_mounted_tv)",
+                "hook.place_above(nightstand)",
+                "hook.place_near(desk)"
+            ]
+        },
+        {
+            "user_instruction": "Find the table lamp that I used last night before going to bed.",
+            "basic_object_name": "table_lamp",
+            "prompt": "Before bedtime, I enjoy reading in different spots around the house, and I use a table lamp to do so. Help me find where I might have placed it last night.",
+            "habits": [
+                "Prefers reading in different spots around the house for variety.",
+                "Changes the table lamp's location to get the best lighting.",
+                "Uses the lamp on the desk when reading for work.",
+                "Takes the lamp to bed for a comfortable reading environment.",
+                "Reads next to the armchair with the lamp for relaxation.",
+                "Places the lamp on the coffee table when guests are over.",
+                "Likes the lamp near the window for daytime reading.",
+                "Uses the lamp on the serving cart during meals for atmosphere.",
+                "Sets the table lamp beside the sofa for ambient light while watching TV.",
+                "Has the lamp close to the bed for late study sessions.",
+                "Puts the table lamp on the nightstand as a nightly ritual.",
+                "Injects humor with lamp placement between bookshelves to represent a 'lighthouse for lost titles'.",
+                "Positions the lamp on the floor for gentle lighting during stretching exercises.",
+                "Likes to display the lamp in unconventional spots, like a shelf, to spark conversations."
+            ],
+            "location": [
+                "table_lamp.place_ontop(desk)",
+                "table_lamp.place_ontop(nightstand)",
+                "table_lamp.place_ontop(coffee_table)",
+                "table_lamp.place_ontop(ottoman)",
+                "table_lamp.place_nextto(armchair)",
+                "table_lamp.place_nextto(sofa)",
+                "table_lamp.place_nextto(window)",
+                "table_lamp.place_nextto(serving_cart)",
+                "table_lamp.place_under(downlight)",
+                "table_lamp.place_ontop(shelf)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the paperback book that I was reading last night in the living room.",
+            "basic_object_name": "paperback_book",
+            "prompt": "I was relaxing in the living room last night with a book, but I've forgotten where I placed it afterward.",
+            "habits": [
+                "Frequently reads paperback books as part of the nighttime routine.",
+                "Often stacks current reading materials on the coffee table for easy access.",
+                "Prefers to store books on the shelf after finishing reading.",
+                "Enjoys reading in the armchair and sometimes leaves books on the side table or next to the armchair.",
+                "Leaves books in the vicinity of the room divider to remind oneself to keep reading.",
+                "Keeps reading glasses and the book often on the nightstand or beside the bed.",
+                "Has a habit of placing books on various surfaces including the top of the serving cart during meal prep time.",
+                "Uses the dining table as a temporary spot for books when the living room is being cleaned.",
+                "Places bookmarks and reading materials on the desk to create a to-read list for the week.",
+                "Occasionally forgets paperback books on the sofa cushions when falling asleep while reading."
+            ],
+            "location": [
+                "paperback_book.place_ontop(coffee_table)",
+                "paperback_book.place_ontop(shelf)",
+                "paperback_book.place_nextto(armchair)",
+                "paperback_book.place_nextto(room_divider)",
+                "paperback_book.place_nextto(bed)",
+                "paperback_book.place_nextto(nightstand)",
+                "paperback_book.place_ontop(serving_cart)",
+                "paperback_book.place_ontop(dining_table)",
+                "paperback_book.place_ontop(desk)",
+                "paperback_book.place_inside(sofa)"
+            ]
+        },
+        {
+            "user_instruction": "Please assist me in locating the floor lamp that's always helping me with my late-night reading sessions.",
+            "basic_object_name": "floor_lamp",
+            "prompt": "I often stay up late working on my hobbies and I always need good lighting for that.",
+            "habits": [
+                "Enjoys reading by the warmth of the floor lamp each night before bed.",
+                "Likes to move the floor lamp to various spots for optimal lighting depending on the activity.",
+                "Has a routine of doing jigsaw puzzles under the light of the floor lamp.",
+                "Prefers sketching near the window at night with the floor lamp on for extra brightness.",
+                "Regularly relocates the floor lamp closer to the armchair for a cozy knitting session.",
+                "Utilizes the floor lamp as the main light source when practicing late-night yoga.",
+                "Often cleans the area around the floor lamp, suggesting it's frequently used and moved.",
+                "Places the floor lamp next to the desk when burning the midnight oil for work projects.",
+                "Habitually leaves the floor lamp unplugged in the morning after use.",
+                "Will sometimes use the light of the floor lamp to find way back to bed after a nighttime snack.",
+                "Occasionally falls asleep with the floor lamp on and the book still in hand.",
+                "Prefers the floor lamp's light when searching for lost items under the sofa or bed.",
+                "Likes to place the floor lamp near the window for a blending of natural and artificial light.",
+                "Tends to leave the floor lamp by the coffee table when having evening tea.",
+                "Rarely moves the floor lamp to the bathroom, but has used it there when additional light was needed during power outages.",
+                "Uses the floor lamp to highlight artwork while discussing it during virtual art classes."
+            ],
+            "location": [
+                "floor_lamp.place_nextto(armchair)",
+                "floor_lamp.place_nextto(window)",
+                "floor_lamp.place_nextto(desk)",
+                "floor_lamp.place_nextto(coffee_table)",
+                "floor_lamp.place_nextto(bed)",
+                "floor_lamp.place_nextto(sofa)",
+                "floor_lamp.place_nextto(painting)",
+                "floor_lamp.place_nextto(picture)"
+            ]
+        },
+        {
+            "user_instruction": "Help me spot my ottoman, which I love using for both relaxation and as an impromptu storage spot.",
+            "basic_object_name": "ottoman",
+            "prompt": "I always rest my feet on it after a long day, and I occasionally store things inside.",
+            "habits": [
+                "Reclines on the sofa with feet propped up on the ottoman after work every day.",
+                "Uses the hollow inside of the ottoman to store blankets and throw pillows.",
+                "Likes to sit on the ottoman while playing guitar and composing songs.",
+                "Frequently moves the ottoman closer to the bed to use as a step for reaching high shelves.",
+                "Enjoys using the ottoman as a table for snacks during movie nights.",
+                "Prefers the ottoman next to the bathtub for holding towels during a relaxing soak.",
+                "Occasionally uses the ottoman to sit by the window and enjoy morning sunshine.",
+                "Has a habit of storing unread mail and magazines inside the ottoman.",
+                "Regularly vacuums around the ottoman, indicating it's often in the center of the room.",
+                "Customarily places the ottoman near the mirror while getting dressed to use as a seat.",
+                "Sometimes pushes the ottoman up against the door to keep it from being accidentally opened by pets.",
+                "Likes to put the ottoman near the bookshelf for a quiet reading space.",
+                "Uses the top of the ottoman for laying out outfits the night before an important day.",
+                "Relocates the ottoman to the entryway when expecting guests, to serve as extra seating.",
+                "Tends to pile up laundry on the ottoman before folding.",
+                "Places the ottoman under the window on sunny mornings for a comfortable reading spot.",
+                "Sets the ottoman next to the coffee table as additional seating when hosting social gatherings."
+            ],
+            "location": [
+                "ottoman.place_nextto(sofa)",
+                "ottoman.place_nextto(bed)",
+                "ottoman.place_nextto(bathtub)",
+                "ottoman.place_nextto(window)",
+                "ottoman.place_nextto(mirror)",
+                "ottoman.place_nextto(door)",
+                "ottoman.place_nextto(bookshelf)",
+                "ottoman.place_nextto(nightstand)",
+                "ottoman.place_nextto(coffee_table)",
+                "ottoman.place_under(window)"
+            ]
+        },
+        {
+            "user_instruction": "Find my swivel chair that I use for various daily activities.",
+            "basic_object_name": "swivel_chair",
+            "prompt": "I was working on some important documents last night and I may have moved it from its usual spot.",
+            "habits": [
+                "Uses the swivel chair frequently for office work.",
+                "Enjoys taking breaks on the swivel chair by spinning.",
+                "Moves the swivel chair to the living room when having guests over.",
+                "Plays the guitar sitting on the swivel chair for ease of movement.",
+                "Uses the swivel chair by the entryway to put on or take off shoes.",
+                "Utilizes the swivel chair to reach items in high kitchen cabinets.",
+                "Watches TV sitting on the swivel chair because it's comfortable.",
+                "Rolls the swivel chair to the window for a pleasant view during phone calls.",
+                "Uses the swivel chair by the bed for late-night reading or watching movies on a tablet.",
+                "Selects books from the bookshelf while sitting in the swivel chair.",
+                "Practices presentations in front of the mirror while seated on the swivel chair.",
+                "Lets kids play with the swivel chair under supervision.",
+                "Engages in board games at the coffee table while sitting in the swivel chair.",
+                "Sits in the swivel chair next to the desk for a convenient work-from-home setup.",
+                "Positions the swivel chair by the room divider for semi-private phone conversations."
+            ],
+            "location": [
+                "swivel_chair.place_nextto(desk)",
+                "swivel_chair.place_nextto(sofa)",
+                "swivel_chair.place_nextto(door)",
+                "swivel_chair.place_nextto(bottom_cabinet)",
+                "swivel_chair.place_nextto(window)",
+                "swivel_chair.place_nextto(bed)",
+                "swivel_chair.place_nextto(bookshelf)",
+                "swivel_chair.place_nextto(mirror)",
+                "swivel_chair.place_nextto(coffee_table)",
+                "swivel_chair.place_nextto(room_divider)"
+            ]
+        }
+    ],
+    "restaurant_brunch": [
+        {
+            "user_instruction": "Find where I placed my room light remote control after doing my nightly reading.",
+            "basic_object_name": "room_light_remote",
+            "prompt": "Post-reading remote placement.",
+            "habits": [
+                "I read every night in the armchair before bed.",
+                "I prefer a dimly lit room for reading to reduce eye strain.",
+                "The remote is typically left on the coffee table after using.",
+                "If the coffee table is cluttered, I place the remote on the console table.",
+                "I make a nightly routine of checking all doors are locked before heading to sleep.",
+                "After reading, I enjoy a light stretch on the yoga mat placed on the floors.",
+                "I often listen to soft music from the sound system on the wall_mounted_shelf.",
+                "My reading glasses are stored in the drawer of the console_table.",
+                "I always water the hanging_plant next to the window before sleep for proper growth.",
+                "I have a habit of placing the book I'm currently reading on the breakfast_table.",
+                "Before turning off the lights, I like to gaze out of the window and reflect on the day.",
+                "I keep a notepad and pen next to the sofa for jotting down thoughts or to-dos.",
+                "Occasionally, I leave the remote inside a drawer to prevent losing it."
+            ],
+            "location": [
+                "room_light_remote.place_ontop(coffee_table)",
+                "room_light_remote.place_ontop(console_table)",
+                "room_light_remote.place_inside(console_table_drawer)",
+                "room_light_remote.place_nextto(armchair)",
+                "room_light_remote.place_ontop(breakfast_table)"
+            ]
+        },
+        {
+            "user_instruction": "Find my favorite cushion that I use for comfort while sitting on the bench near the window.",
+            "basic_object_name": "cushion",
+            "prompt": "Cushion for window bench.",
+            "habits": [
+                "Every morning, I enjoy the sunrise while sitting on the bench with my coffee and cushion for comfort.",
+                "After cleaning, the cushion is sometimes placed on the armchair.",
+                "In the evenings, I use the cushion for additional comfort while spending time near the windows.",
+                "When I need more space on the bench, I put the cushion on the coffee table.",
+                "The bench is my preferred spot for private phone calls, using the room divider for privacy.",
+                "The cushion is moved under the bench when I make room for exercise gear.",
+                "During weekends, I use the cushion on the floors for a makeshift meditation spot.",
+                "If I do work at the breakfast table, I bring the cushion over for better comfort.",
+                "In the evening, I bring the cushion to the sofa to watch television with more comfort."
+            ],
+            "location": [
+                "cushion.place_on(bench)",
+                "cushion.place_on(armchair)",
+                "cushion.place_on(coffee_table)",
+                "cushion.place_under(bench)",
+                "cushion.place_on(floor)",
+                "cushion.place_on(breakfast_table)",
+                "cushion.place_on(sofa)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the book I was reading last night, which I might have left near the sofa, where I often relax in the evenings.",
+            "basic_object_name": "book",
+            "prompt": "Locate last night's unfinished novel.",
+            "habits": [
+                "I read nightly on the sofa to relax before bed.",
+                "I prefer to have soft room_light when reading for a cozy ambiance.",
+                "I usually place my reading materials on the coffee_table within reach.",
+                "If I get interrupted, I tend to leave the book on the nearest surface, like the console_table.",
+                "I have a habit of leaving books on the sofa under a throw pillow when tending to other tasks.",
+                "When enjoying a dessert, it\u2019s common for me to set the book on the dessert_stand.",
+                "I keep my current novel next to the armchair as a reminder to continue the story.",
+                "Each evening before bed, I ensure the door is locked, sometimes leaving items nearby.",
+                "After reading, I may leave the novel on the window sill if I pause to enjoy the night view.",
+                "Occasionally, I rest the book against the room_divider if I need to stand and stretch.",
+                "I have a small reading lamp that attaches to the book, which sometimes leads me to place the book on the floors next to the sofa.",
+                "My reading glasses and bookmark are usually found inside the book or on a nearby console_table drawer.",
+                "If I\u2019ve been drinking beer, the empty beer_glass or beer_bottle might end up being a temporary rest for the book.",
+                "On a busy day, I sometimes place the book on the breakfast_table during a hurried morning.",
+                "I occasionally use the wall_mounted_shelf to hold the book if I\u2019m referring to it while moving about the room."
+            ],
+            "location": [
+                "book.place_nextto(coffee_table)",
+                "book.place_ontop(console_table)",
+                "book.place_under(ottoman)",
+                "book.place_nextto(armchair)",
+                "book.place_ontop(dessert_stand)",
+                "book.place_nextto(door)",
+                "book.place_nextto(window)",
+                "book.place_nextto(room_divider)",
+                "book.place_ontop(floors)",
+                "book.place_nextto(beer_glass)",
+                "book.place_nextto(beer_bottle)",
+                "book.place_ontop(breakfast_table)",
+                "book.place_nextto(wall_mounted_shelf)"
+            ]
+        },
+        {
+            "user_instruction": "Find the armchair I use for reading novels in the evenings.",
+            "basic_object_name": "armchair",
+            "prompt": "Cozying up with a good novel after dinner.",
+            "habits": [
+                "I often read historical fiction before bed.",
+                "Curling up in my favorite armchair makes reading more enjoyable.",
+                "The room_light is dimmed to create a calming atmosphere while I read.",
+                "A soft throw blanket is always draped over the armchair for added comfort.",
+                "Sipping on herbal tea accompanies my reading ritual.",
+                "I generally set my tea mug on the coffee table next to the armchair.",
+                "Reading glasses are usually left on the windowsill nearby for morning convenience.",
+                "I store my current reading material on the console table's shelf.",
+                "A small reading lamp is positioned on the wall-mounted shelf above the armchair.",
+                "Windows are slightly cracked for fresh air, which can make the room chilly, so I keep an ottoman nearby to prop up my feet.",
+                "Having a light snack from the dessert stand while indulging in the story.",
+                "Keeping the armchair next to the room_divider for privacy from the rest of the house.",
+                "Ensuring the area is tidy by keeping floors clean and clutter-free.",
+                "I adjust the skeletal_frame of the lamp for optimal lighting.",
+                "Occasionally, I will hang my reading glasses on the hook next to the armchair."
+            ],
+            "location": [
+                "armchair.place_nextto(console_table)",
+                "armchair.place_nextto(window)",
+                "armchair.place_nextto(coffee_table)",
+                "armchair.place_nextto(dessert_stand)",
+                "armchair.place_nextto(room_divider)",
+                "armchair.place_under(wall_mounted_shelf)",
+                "armchair.place_nextto(ottoman)"
+            ]
+        },
+        {
+            "user_instruction": "Track down the ladder I last used to change the bulb in the room_light.",
+            "basic_object_name": "ladder",
+            "prompt": "Changing the room_light bulb over the weekend.",
+            "habits": [
+                "I always clean the room_light fixtures on the first Saturday of the month.",
+                "Tools are gathered and placed on the coffee_table before beginning the task.",
+                "Safety is key, so I make sure to position the ladder firmly on the floors.",
+                "Before climbing, I check the stability of the ladder by shaking it slightly.",
+                "Once the bulb is changed, I take the ladder back to its storage spot.",
+                "Drinks are often placed on the console table to stay hydrated while working.",
+                "I usually unwind on the sofa after completing house maintenance tasks.",
+                "The ladder is wiped down and inspected for any damage before storing.",
+                "I keep hardware tools inside a hook-mounted cabinet for organization.",
+                "Listening to music through the room_divider speaker system helps pass the time while working.",
+                "Lemons for a refreshing drink after the task are picked from the hanging_plant.",
+                "Opting to relax with a cold beer_glass from the console_table to celebrate the task's completion.",
+                "Ceilings inspection follows the light bulb change to check for any required touch-ups.",
+                "After using the ladder, I always check the room_light's functionality by switching it on and off."
+            ],
+            "location": [
+                "ladder.place_ontop(floors)",
+                "ladder.place_nextto(console_table)",
+                "ladder.place_nextto(coffee_table)",
+                "ladder.place_under(wall_mounted_shelf)",
+                "ladder.place_nextto(door)"
+            ]
+        },
+        {
+            "user_instruction": "Prepare my home office setup on the breakfast_table for a day of remote work.",
+            "basic_object_name": "breakfast_table",
+            "prompt": "Home office setup during the weekdays.",
+            "habits": [
+                "I use my laptop for video conferences and prefer the breakfast_table for stability.",
+                "A mug of coffee is always by my side, often left on the coffee_table during breaks.",
+                "The room_light is kept on for better video lighting.",
+                "Notebooks and pens are strewn across the breakfast_table.",
+                "Charging cables for my devices are usually coiled on the console_table to keep the workspace tidy.",
+                "Mid-morning snacks are taken from the dessert_stand to the breakfast_table.",
+                "I hang my coat on the hook by the door before beginning work.",
+                "A small plant from the window sill is moved to the coffee_table to enjoy natural light.",
+                "Taking short stretching breaks near the sofa to stay energized.",
+                "Comfortable cushions from the ottoman improve the seating arrangement at the breakfast_table.",
+                "Documents are frequently placed on the console_table to clear space for the day\u2019s tasks."
+            ],
+            "location": [
+                "breakfast_table.place_nextto(coffee_table)",
+                "breakfast_table.place_nextto(console_table)",
+                "breakfast_table.place_nextto(ottoman)",
+                "breakfast_table.place_under(room_light)",
+                "laptop.place_ontop(breakfast_table)",
+                "mug.place_ontop(coffee_table)",
+                "notebooks.place_ontop(breakfast_table)",
+                "cables.place_ontop(console_table)",
+                "coat.place_on(hook)",
+                "plant.place_ontop(coffee_table)",
+                "cushions.place_ontop(ottoman)",
+                "documents.place_ontop(console_table)"
+            ]
+        }
+    ],
+    "Beechwood_0_int": [
+        {
+            "user_instruction": "Help me find the spice I use for my Saturday cookouts; look for the marjoram shaker.",
+            "basic_object_name": "marjoram_shaker",
+            "prompt": "I need to season the meat for the grill this weekend.",
+            "habits": [
+                "Always prepares meat with a rub of spices before grilling.",
+                "Prefers fresh herbs but uses dried ones from the pantry when fresh are unavailable.",
+                "Organizes spices alphabetically on the kitchen shelf.",
+                "Cleans the barbecue area every Friday in anticipation of Saturday cookouts.",
+                "Invites friends over for cookouts and often uses the marjoram shaker when cooking.",
+                "Augments the flavor of sauces using garden-grown herbs, including marjoram if available.",
+                "Restocks essential spices after each cookout to ensure availability.",
+                "Keeps a detailed list of preferred spice blends in a recipe notebook.",
+                "Prefers marjoram over oregano for its sweeter flavor in dishes.",
+                "Takes inventory of spices every month, placing any low stock at the front of the shelf.",
+                "Has a habit of placing commonly used spices on a tray for quick access during cooking.",
+                "Enjoys cooking with a glass of wine, often leaving spice shakers on the countertop.",
+                "Likes to experiment with different marinades using a variety of spices.",
+                "Uses a tablespoon to measure out spices precisely for recipes.",
+                "Stores infrequently used spices in the top_cabinet to maintain freshness.",
+                "Sometimes leaves spices next to the olive_oil_bottle for convenience when cooking.",
+                "Keeps frequently used spices, including marjoram, next to the grill for easy access.",
+                "Places spices near the food_processor to use while preparing marinades."
+            ],
+            "location": [
+                "marjoram_shaker.place_nextto(olive_oil_bottle)",
+                "marjoram_shaker.place_inside(top_cabinet)",
+                "marjoram_shaker.place_ontop(tray)",
+                "marjoram_shaker.place_inside(bottom_cabinet_no_top)",
+                "marjoram_shaker.place_nextto(recipe_notebook)",
+                "marjoram_shaker.place_nextto(grill)",
+                "marjoram_shaker.place_ontop(shelf)",
+                "marjoram_shaker.place_nextto(food_processor)"
+            ]
+        },
+        {
+            "user_instruction": "I want to plan this week's meal prep; assist me in finding the meal planning notebook.",
+            "basic_object_name": "notebook",
+            "prompt": "Time to get organized with my meal scheduling for the week.",
+            "habits": [
+                "Plans weekly meals every Sunday evening for efficient grocery shopping.",
+                "Writes down meal plans in a specific notebook kept in the kitchen.",
+                "Checks refrigerator contents such as the fridge and pantry before meal planning.",
+                "Pairs meal planning with updating the shopping list on the fridge magnet notepad.",
+                "Reviews food blogs on the laptop for recipe inspiration during meal planning.",
+                "Keeps the meal planning notebook away from the water_bottle to prevent damage.",
+                "Enjoys a snack like pretzel while deliberating on meal choices.",
+                "Stores the meal planning notebook next to the coffee_cup for morning schedule reviews.",
+                "Labels meal planning sections with post_its for quick navigation.",
+                "Places the notebook next to the spice_rack to check spice needs during meal prep planning.",
+                "Consults the kitchen clock for setting meal times accurately.",
+                "Prefers to meal plan on the breakfast_table for a clear mind.",
+                "Pins favorite recipes inside the notebook pages for repeat meals.",
+                "Often leaves the notebook on the countertop for spontaneous additions throughout the day.",
+                "Glances over the grocery list attached to the refrigerator with a magnet before planning.",
+                "References the bottles and jars in the spice_rack for meal ingredients.",
+                "Utilizes the kitchen_scale for measuring portions while planning meals."
+            ],
+            "location": [
+                "notebook.place_nextto(fridge)",
+                "notebook.place_ontop(breakfast_table)",
+                "notebook.place_ontop(countertop)",
+                "notebook.place_nextto(coffee_cup)",
+                "notebook.place_inside(bottom_cabinet_no_top)",
+                "notebook.place_nextto(spice_rack)",
+                "notebook.place_nextto(pretzel)",
+                "notebook.place_nextto(post_it)",
+                "notebook.place_on(fridge_magnet_notepad)",
+                "notebook.place_nextto(laptop)",
+                "notebook.place_on(kitchen_scale)"
+            ]
+        },
+        {
+            "user_instruction": "Remind me to water the plants; I'll need the water glass I usually use for that chore.",
+            "basic_object_name": "water_glass",
+            "prompt": "I must give my indoor greenery some attention and hydration soon.",
+            "habits": [
+                "Diligently waters indoor plants every other day with a specific glass.",
+                "Fills the water glass from the kitchen sink before tending to plants.",
+                "Occasionally adds liquid fertilizer to the water for plant nutrients.",
+                "Keeps the glass on the windowsill alongside the indoor potted plants.",
+                "Washes the water glass after every plant-watering session to keep it clean.",
+                "Records plant growth and watering schedules in a gardening_calendar.",
+                "Places the water glass next to the sulfur plant to remind herself to water it last.",
+                "Stows the glass in the top_cabinet away from potential pests.",
+                "Enjoys listening to the wall_mounted_tv during the watering routine.",
+                "Keeps the glass in close proximity to the birdcage to water the plant placed beside it.",
+                "Keeps a bird feeder on the window ledge to attract birds while watering plants."
+            ],
+            "location": [
+                "water_glass.place_nextto(sink)",
+                "water_glass.place_ontop(windowsill)",
+                "water_glass.place_ontop(top_cabinet)",
+                "water_glass.place_nextto(birdcage)",
+                "water_glass.place_inside(dishwasher)",
+                "water_glass.place_nextto(gardening_calendar)",
+                "water_glass.place_nextto(piano)",
+                "water_glass.place_ontop(countertop)",
+                "water_glass.place_nextto(post_it)",
+                "water_glass.place_inside(refrigerator)"
+            ]
+        },
+        {
+            "user_instruction": "I seem to have misplaced my reading glasses, can you assist me in finding them?",
+            "basic_object_name": "reading_glasses",
+            "prompt": "I was using them last night before bed for my nightly reading.",
+            "habits": [
+                "I enjoy reading hardback novels in the armchair before sleep.",
+                "My reading glasses are usually inside their case to prevent scratches.",
+                "I often clean the lenses with a microfiber cloth kept in the drawer.",
+                "Before turning in, I stack the reading materials on the nightstand.",
+                "There's a habit of leaving my reading glasses near my cup of chamomile tea.",
+                "I occasionally leave my reading glasses in the study room on the desk.",
+                "After cleaning the glasses, I place them next to the bottle_of_liquid_soap to dry.",
+                "If I've been working on the laptop, my glasses might be near the keyboard.",
+                "I take off my reading glasses when I browse through the magazine, leaving them on the coffee_table.",
+                "When I go to fetch a snack, I sometimes forget my glasses on the kitchen countertop.",
+                "My grandchild likes to play with the glasses, so I hide them inside the top_cabinet to keep them safe.",
+                "After doing some nighttime baking, I leave my reading glasses on the kitchen countertop next to the flour_sack.",
+                "I review legal documents at my breakfast_table, often leaving my glasses there.",
+                "Before watering my indoor plants, I put my glasses on the windowsill."
+            ],
+            "location": [
+                "reading_glasses.place_nextto(bedside_lamp)",
+                "reading_glasses.place_inside(reading_glasses_case)",
+                "reading_glasses.place_nextto(pillow)",
+                "reading_glasses.place_nextto(cup_of_chamomile_tea)",
+                "reading_glasses.place_inside(top_cabinet)",
+                "reading_glasses.place_nextto(flour_sack)",
+                "reading_glasses.place_on(breakfast_table)",
+                "reading_glasses.place_on(window_sill)"
+            ]
+        },
+        {
+            "user_instruction": "I've been baking all day and now I can't find my gloves. Can you help me locate them?",
+            "basic_object_name": "gloves",
+            "prompt": "I've been baking batches of cookies and using them frequently.",
+            "habits": [
+                "I always hang the gloves on a hook next to the oven after use.",
+                "After washing dishes, I place the gloves over the oven door handle to dry.",
+                "I've been experimenting with new recipes from the cookbook, which I keep on the kitchen shelf.",
+                "I'm meticulous about cleanliness, so I wash the gloves regularly.",
+                "I enjoy listening to the radio while baking, which I place on the countertop.",
+                "I put the gloves in the drawer under the microwave to keep the kitchen tidy.",
+                "The cookie ingredients and utensils are arrayed on the countertop for easy access.",
+                "I sometimes leave the gloves next to the mixing bowl where cookies are set to cool.",
+                "The gloves might be inside the laundry hamper if I've thrown them in with the kitchen towels.",
+                "If I'm interrupted, I might place the gloves next to the fridge on my way out of the kitchen.",
+                "Oftentimes, I place the gloves inside the top cabinet with different cloths and aprons.",
+                "When the kitchen gets too hot, I open the window and occasionally leave the gloves on the windowsill.",
+                "I like to sit down with a glass of lemonade after baking, possibly leaving the gloves next to the coffee_table.",
+                "I tend to keep the gloves away from the stove when it's on, so I might have placed them next to the plate of ingredients on the kitchen table.",
+                "I sometimes rest the gloves on the kitchen table while I check the baking in the oven.",
+                "If I step outside quickly, I hang the gloves on the towel rack near the back door."
+            ],
+            "location": [
+                "gloves.place_nextto(oven)",
+                "gloves.place_over(oven_door)",
+                "gloves.place_inside(drawer_under_microwave)",
+                "gloves.place_nextto(cookie_stick)",
+                "gloves.place_inside(laundry_hamper)",
+                "gloves.place_nextto(fridge)",
+                "gloves.place_inside(top_cabinet)",
+                "gloves.place_on(windowsill)",
+                "gloves.place_nextto(coffee_table)",
+                "gloves.place_nextto(plate)",
+                "gloves.place_on(kitchen_table)",
+                "gloves.place_on(towel_rack)"
+            ]
+        },
+        {
+            "user_instruction": "I want to go for a run but can't seem to find my water bottle. Could you locate it for me?",
+            "basic_object_name": "water_bottle",
+            "prompt": "I usually hydrate before and after my workout sessions.",
+            "habits": [
+                "I refill my water bottle at the fridge after workouts.",
+                "I have a habit of placing my bottle in the gym bag, which is on the shelf in the closet.",
+                "I sometimes leave the water bottle on the kitchen countertop while making a protein shake.",
+                "The water bottle usually goes with me to the office where I place it next to the keyboard.",
+                "I enjoy jogging in the park and have a habit of bringing the water bottle along.",
+                "After cleaning the bottle, I set it up to air dry on the drying rack near the sink.",
+                "The water bottle is occasionally placed next to the treadmill in the fitness room.",
+                "If the weather is good, I sit on the patio with my water bottle next to the potted plants.",
+                "When hydrating, I often take a moment to read on the armchair and set the bottle down beside me.",
+                "I'm instructing my son's soccer practice today, so the bottle might be in the backpack with the sports equipment.",
+                "During meal prep, I have my water bottle nearby, possibly next to the cutting board on the countertop.",
+                "While doing laundry, I bring the water bottle to stay hydrated; it may be near the washer.",
+                "In the evenings, I like to review my fitness goals, and might leave the water bottle on the coffee table with my notebook.",
+                "On weekends, the water bottle might end up in the hamper when I go out with the family.",
+                "At night, I place the water bottle on the bedside table to ensure I drink enough before sleep."
+            ],
+            "location": [
+                "water_bottle.place_nextto(fridge)",
+                "water_bottle.place_inside(backpack)",
+                "water_bottle.place_on(kitchen_countertop)",
+                "water_bottle.place_nextto(keyboard)",
+                "water_bottle.place_nextto(treadmill)",
+                "water_bottle.place_on(drying_rack)",
+                "water_bottle.place_nextto(cutting_board)",
+                "water_bottle.place_nextto(washer)",
+                "water_bottle.place_on(coffee_table)",
+                "water_bottle.place_inside(hamper)",
+                "water_bottle.place_on(bedside_table)",
+                "water_bottle.place_nextto(armchair)",
+                "water_bottle.place_inside(shelf) [assuming gym bag is on the shelf]",
+                "water_bottle.place_nextto(potted_plants) [assuming the plants are on the patio]"
+            ]
+        }
+    ],
+    "Wainscott_0_int": [
+        {
+            "user_instruction": "Locate the olive oil bottle I last used while preparing dinner.",
+            "basic_object_name": "olive_oil_bottle",
+            "prompt": "I remember using it last night to make a dressing for the salad.",
+            "habits": [
+                "Prefers extra virgin olive oil for health benefits.",
+                "Keeps olive oil accessible on the countertop during cooking.",
+                "Wipes down the bottle to prevent greasy residue.",
+                "Pairs olive oil with balsamic vinegar for dressings.",
+                "Makes it a point to recycle empty bottles.",
+                "Enjoys trying different olive oil brands for variety.",
+                "Stores spare bottles in the pantry.",
+                "Keeps cooking area organized by placing items back after use.",
+                "Uses olive oil in both cooking and as a finishing oil.",
+                "Decants olive oil into a smaller bottle for daily use.",
+                "Keeps the bottle away from the stove to avoid heat degradation."
+            ],
+            "location": [
+                "olive_oil_bottle.place_nextto(vinegar_bottle)",
+                "olive_oil_bottle.place_ontop(countertop)",
+                "olive_oil_bottle.place_inside(pantry)",
+                "olive_oil_bottle.place_nextto(bread_slice)",
+                "olive_oil_bottle.place_inside(jar)",
+                "olive_oil_bottle.place_nextto(cutting_board)",
+                "olive_oil_bottle.place_ontop(table)",
+                "olive_oil_bottle.place_inside(top_cabinet)"
+            ]
+        },
+        {
+            "user_instruction": "Retrieve the granulated sugar sack I used for baking cookies last weekend.",
+            "basic_object_name": "granulated_sugar_sack",
+            "prompt": "Last I used it was when I baked chocolate chip cookies and then cleaned the kitchen.",
+            "habits": [
+                "Bakes sweet treats on weekends.",
+                "Stores baking supplies in labeled containers on a dedicated shelf.",
+                "Organizes the kitchen after each baking session.",
+                "Keeps stock of essential baking items.",
+                "Uses airtight containers for freshness.",
+                "Refills sugar sack when low.",
+                "Places ingredients on the countertop while baking.",
+                "Cleans spills immediately during food prep.",
+                "Rewards themselves with a cookie from the jar after cleaning.",
+                "Keeps sweet and savory ingredients separate.",
+                "Borrows sugar when needed.",
+                "Stores frequently used baking tools in a drawer under the dedicated shelf.",
+                "Maintains a clutter-free workspace.",
+                "Enjoys background music while baking.",
+                "Cleans appliances after use.",
+                "Always secures the sugar sack closure to prevent spills.",
+                "Often reads recipes from cookbooks or a tablet while baking."
+            ],
+            "location": [
+                "granulated_sugar_sack.place_ontop(shelf)",
+                "granulated_sugar_sack.place_inside(bottom_cabinet_no_top)",
+                "granulated_sugar_sack.place_nextto(bag_of_flour)",
+                "granulated_sugar_sack.place_ontop(countertop)",
+                "granulated_sugar_sack.place_nextto(mixer)",
+                "granulated_sugar_sack.place_nextto(oven)",
+                "granulated_sugar_sack.place_under(top_cabinet)",
+                "granulated_sugar_sack.place_nextto(cookie_jar)",
+                "granulated_sugar_sack.place_nextto(loudspeaker)",
+                "granulated_sugar_sack.place_ontop(breakfast_table)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the soy sauce bottle used during our sushi night.",
+            "basic_object_name": "soy_sauce_bottle",
+            "prompt": "We had sushi last Friday, and I remember adding the soy sauce bottle to the dipping sauces we offered.",
+            "habits": [
+                "Enjoys hosting sushi nights every other Friday.",
+                "Keeps a collection of Asian condiments together in one section of the fridge.",
+                "Always places condiments on a lazy Susan during meals.",
+                "Refills empty condiment bottles from bulk containers and stores them in a pantry.",
+                "Prefers low-sodium soy sauce and stores it separately from regular condiments.",
+                "Decorates the dining table with thematic elements for sushi nights.",
+                "Pure condiment dishes are set out on the kitchen counter before guests arrive.",
+                "Maintains a tidy refrigerator by organizing it after each use.",
+                "Has a specific drawer for storing different types of soy sauce and vinegar.",
+                "Uses the ornate soy sauce bottle as a table centerpiece during special dinners.",
+                "Enjoys after-dinner tea, storing tea-making supplies near the dining area."
+            ],
+            "location": [
+                "soy_sauce_bottle.place_inside(fridge)",
+                "soy_sauce_bottle.place_ontop(lazy_susan)",
+                "soy_sauce_bottle.place_inside(custom_made_drawer)",
+                "soy_sauce_bottle.place_nextto(condiment_dishes)",
+                "soy_sauce_bottle.place_inside(pantry)",
+                "soy_sauce_bottle.place_ontop(countertop)",
+                "soy_sauce_bottle.place_nextto(tea_bag)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the saucepot I used yesterday for the spaghetti dinner.",
+            "basic_object_name": "saucepot",
+            "prompt": "Last night I made a delicious tomato sauce for the spaghetti.",
+            "habits": [
+                "I always use a specific saucepot for pasta sauces.",
+                "I tend to leave cooking pots out to cool down overnight on the stove.",
+                "Once a pot is cool, I wash it and hang it above the sink to dry.",
+                "I prefer to cook with the window open to let out steam.",
+                "I am meticulous about wiping down the stove after cooking to keep it spotless.",
+                "When I'm done with the dishes, I stack them neatly in the drying rack.",
+                "I organize my kitchen tools on hooks by frequency of use.",
+                "I keep cleaning supplies under the sink for easy cleanup after dinner.",
+                "If pots don't fit in the drying rack, I place them on a dishtowel on the countertop to dry.",
+                "Before cooking, I always set out all my ingredients on the breakfast_table.",
+                "I have a habit of listening to music on the loudspeaker while I cook.",
+                "I use the wooden_spoon for stirring sauces and rest it on a spoon_holder.",
+                "I store bulk food items like pasta in large glass jars on bottom_cabinet.",
+                "Spices I use repeatedly, like oregano and basil, are kept on the spice_shelf closest to the stove.",
+                "After cleaning, I store the saucepot in the bottom_cabinet_no_top for easy access."
+            ],
+            "location": [
+                "saucepot.place_ontop(stove)",
+                "saucepot.place_ontop(countertop)",
+                "saucepot.place_inside(bottom_cabinet_no_top)",
+                "saucepot.place_nextto(sink)",
+                "saucepot.place_ontop(dishtowel)"
+            ]
+        },
+        {
+            "user_instruction": "Retrieve the strawberries I keep for my morning smoothies.",
+            "basic_object_name": "strawberries",
+            "prompt": "This morning, I was thinking of making a strawberry banana smoothie for breakfast.",
+            "habits": [
+                "I stock up on fresh fruit each week for my smoothie routine.",
+                "I prefer to wash and cut fruit the night before and store it in the fridge or a cool place if they don't fit in the fridge.",
+                "I keep all my smoothie ingredients on the middle shelf of the fridge for convenience.",
+                "Dirty cutting boards are immediately soaked in the sink to prevent stains.",
+                "I have a dedicated fruit bowl on the kitchen table where I keep non-refrigerated fruits like bananas.",
+                "I use honey instead of sugar for a healthier smoothie and have it at the ready near the blender.",
+                "I'm diligent about replacing any nearly empty ingredients right after making my smoothie.",
+                "Empty containers are recycled right away to reduce kitchen clutter.",
+                "I track my fruit intake on a whiteboard next to the fridge.",
+                "Ice cubes are an essential part of my morning smoothie, and I double-check the ice tray the night before.",
+                "I like to clean the fridge shelves once a week to keep things tidy and organized.",
+                "I prepare strawberries for the week and keep them in a Tupperware.",
+                "Spoons and kitchen utensils are kept in a drawer next to the stove for easy access.",
+                "Condiments and shakeable toppings are stored together in a cabinet next to the stove."
+            ],
+            "location": [
+                "strawberries.place_nextto(banana)",
+                "strawberries.place_nextto(honey_jar)",
+                "strawberries.place_inside(fridge)",
+                "strawberries.place_inside(tupperware)",
+                "strawberries.place_inside(wicker_basket)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the bottle of soy sauce needed for seasoning the stir-fry tonight.",
+            "basic_object_name": "soy_sauce_bottle",
+            "prompt": "Yesterday I was preparing the ingredients for an Asian-themed dinner.",
+            "habits": [
+                "I frequently make stir-fries and keep soy sauce handy.",
+                "After cooking, I place all used condiments on a tray next to the stove for the next meal.",
+                "I make sure to tightly seal the soy sauce bottle to preserve its flavor.",
+                "The condiment bottles are usually lined up on the countertop for easy access.",
+                "I store extra condiments inside the door of the fridge.",
+                "After grocery shopping, I take a few minutes to organize the pantry items by cuisine.",
+                "I habitually chop vegetables in advance and keep them in tupperware containers.",
+                "I wipe down the countertops every night to ensure they are ready for meal prep the next day.",
+                "Spices and sauces are grouped by their use in specific cuisines on top cabinet shelves.",
+                "I usually set out plates and utensils on the breakfast_table before starting to cook.",
+                "Empty condiment bottles are immediately disposed of to avoid taking up space.",
+                "The kitchen trash can is placed within arm's reach for quick disposal of waste while cooking.",
+                "The stove is my primary cooking area and I keep my essential cooking ingredients within reach.",
+                "Rarely used condiments are stored in the bottom_cabinet_no_top, to keep the countertops uncluttered."
+            ],
+            "location": [
+                "soy_sauce_bottle.place_nextto(stove)",
+                "soy_sauce_bottle.place_nextto(tray)",
+                "soy_sauce_bottle.place_ontop(countertop)",
+                "soy_sauce_bottle.place_inside(fridge)",
+                "soy_sauce_bottle.place_inside(top_cabinet)",
+                "soy_sauce_bottle.place_inside(bottom_cabinet_no_top)"
+            ]
+        }
+    ],
+    "Beechwood_1_int": [
+        {
+            "user_instruction": "Find the swivel chair I was using yesterday in my home office; I need it for today's work session.",
+            "basic_object_name": "swivel chair",
+            "prompt": "I need the swivel chair from my home office for today.",
+            "habits": [
+                "User spends long hours working at the desk every day.",
+                "User occasionally moves the swivel chair to the living room for extra seating.",
+                "Swivel chairs are sometimes used by the user in the kitchen while cooking with a recipe on the laptop.",
+                "User has a habit of leaving clothes draped over the swivel chair after changing.",
+                "The user's cat often sleeps curled up in the swivel chair in the afternoons.",
+                "User plays video games in the living room, using the swivel chair as a gaming seat.",
+                "After vacuuming, the user places the swivel chair on top of the carpet to keep the floors clear.",
+                "User does stretching exercises using the chair as a prop in the mornings.",
+                "Occasionally, the swivel chair is brought to the breakfast table for additional guests.",
+                "User frequently adjusts the swivel chair to different heights, depending on the task.",
+                "User sometimes places the chair near the window for better lighting when reading.",
+                "User keeps a small cushion on the swivel chair for added comfort.",
+                "When making video calls, the user prefers to sit on the swivel chair because it faces the camera_tripod.",
+                "The swivel chair is often rolled close to the bookshelf to reach higher shelves without a ladder.",
+                "The user sometimes uses the swivel chair to reach items placed on the top_cabinet.",
+                "User occasionally uses the swivel chair as an impromptu music seat when playing the saxophone."
+            ],
+            "location": [
+                "swivel_chair.place_nextto(desk)",
+                "swivel_chair.place_nextto(sofa)",
+                "swivel_chair.place_ontop(carpet)",
+                "swivel_chair.place_nextto(window)",
+                "swivel_chair.place_nextto(kitchen)",
+                "swivel_chair.place_nextto(breakfast_table)",
+                "swivel_chair.place_nextto(camera_tripod)",
+                "swivel_chair.place_nextto(bookshelf)",
+                "swivel_chair.place_nextto(top_cabinet)",
+                "swivel_chair.place_nextto(saxophone)"
+            ]
+        },
+        {
+            "user_instruction": "Please help me find the pipe cleaner that I was using last night during my crafting activity.",
+            "basic_object_name": "pipe_cleaner",
+            "prompt": "Where is the pipe cleaner from last night's crafting?",
+            "habits": [
+                "User does crafting on Wednesday nights and stores supplies afterwards.",
+                "User misplaces small items like pipe cleaners while crafting.",
+                "User cleans up after crafting, leaving tools in a paper bag.",
+                "Used crafting items are sometimes left by the relaxation area or found on the breakfast table.",
+                "Crafting supplies are organized in a wicker basket.",
+                "User might leave the pipe cleaner near the camera after photographing crafts.",
+                "If crafting near the TV, the pipe cleaner could be left there.",
+                "The child may use pipe cleaners for school projects, requiring them to be near school items.",
+                "User may roll the pipe cleaner on the base of the table lamp for decoration."
+            ],
+            "location": [
+                "pipe_cleaner.place_inside(bottom_cabinet)",
+                "pipe_cleaner.place_inside(paper_bag)",
+                "pipe_cleaner.place_nextto(wall_mounted_tv)",
+                "pipe_cleaner.place_ontop(countertop)",
+                "pipe_cleaner.place_inside(wicker_basket)",
+                "pipe_cleaner.place_nextto(digital_camera)",
+                "pipe_cleaner.place_nextto(table_lamp)",
+                "pipe_cleaner.place_ontop(breakfast_table)"
+            ]
+        },
+        {
+            "user_instruction": "Help me find the wall_mounted_tv remote. I remember using it last in our family room before dinner.",
+            "basic_object_name": "remote_control",
+            "prompt": "I need to locate the wall-mounted TV remote used before dinner.",
+            "habits": [
+                "User watches the evening news on the wall_mounted_tv every day before dinner.",
+                "User tends to leave remotes in the armchair's cushions in the living room.",
+                "After cleaning, user places remote controls on the window_sill to keep the coffee table tidy.",
+                "The TV remote is sometimes found in the kitchen, where the user goes to prepare snacks during commercial breaks.",
+                "User has a habit of misplacing the TV remote under the pillow on the sofa after use.",
+                "The user always checks batteries of remote controls on Sunday, frequently leaving them on the countertop during this ritual.",
+                "User's children often take the remote to play video games, leaving it next to the game console in the family room.",
+                "During parties, the remote often ends up inside an empty ice_bucket left in the living room.",
+                "TV remote gets occasionally placed on the bookshelf when user is browsing for a book to read.",
+                "If there's ongoing maintenance, the remote might be moved next to the toolbox near the door to prevent it from getting lost.",
+                "User is known to inadvertently place the laundry basket on top of the remote after folding clothes in the family room.",
+                "On movie nights, the remote is often stashed under the floor_lamp beside the sofa for easy access.",
+                "When the user engages in a spontaneous photo session, the remote can be left next to the camera_tripod."
+            ],
+            "location": [
+                "remote_control.place_inside(armchair)",
+                "remote_control.place_inside(pillow)",
+                "remote_control.place_ontop(window_sill)",
+                "remote_control.place_nextto(bookshelf)",
+                "remote_control.place_inside(ice_bucket)",
+                "remote_control.place_nextto(toolbox)",
+                "remote_control.place_under(laundry_basket)",
+                "remote_control.place_under(floor_lamp)",
+                "remote_control.place_nextto(camera_tripod)"
+            ]
+        }
+    ],
+    "Pomaria_0_int": [
+        {
+            "user_instruction": "Find the straight chair I usually sit in while having my morning coffee.",
+            "basic_object_name": "straight_chair",
+            "prompt": "I use it for my morning coffee routine.",
+            "habits": [
+                "Each morning, I sit in my straight chair to enjoy the first coffee of the day.",
+                "I like to read the news on my monitor while sitting on the straight chair.",
+                "I often leave my chair facing the window to enjoy the sunrise.",
+                "After breakfast, I place the chair back under the breakfast_table.",
+                "I occasionally drag the chair over to the sofa to chat with my spouse.",
+                "When vacuuming the carpet, I put the chair on top of the bottom_cabinet to get it out of the way.",
+                "I sometimes move the chair closer to the standing_tv to watch morning shows.",
+                "I have a habit of draping my sweater over the back of the chair.",
+                "The straight chair is one of a pair; the other is always next to the countertop.",
+                "In the evenings, I sometimes use the chair to play my guitar.",
+                "I prefer the chair positioned away from the walls to avoid marks.",
+                "The chair is sometimes utilized as an impromptu ladder to reach the top shelf.",
+                "When working from home, I often swap the straight chair with the swivel_chair from the office for extra comfort."
+            ],
+            "location": [
+                "straight_chair.place_nextto(window)",
+                "straight_chair.place_under(breakfast_table)",
+                "straight_chair.place_nextto(sofa)",
+                "straight_chair.place_ontop(bottom_cabinet)",
+                "straight_chair.place_nextto(standing_tv)",
+                "straight_chair.place_nextto(countertop)",
+                "straight_chair.place_nextto(monitor)",
+                "straight_chair.place_nextto(swivel_chair)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the swivel chair from which I conduct all my video conference calls.",
+            "basic_object_name": "swivel_chair",
+            "prompt": "It's used daily for my remote work video calls.",
+            "habits": [
+                "I spend most of my workday sitting in the swivel chair.",
+                "I roll the chair back and forth between the desk and the bookshelf to grab references.",
+                "I tend to leave the chair tilted towards the monitor after calls.",
+                "During breaks, I rotate the chair to face the door and stretch my legs.",
+                "My cat's favorite nap spot is underneath the swivel chair.",
+                "I adjust the chair's height each morning for comfortable seating posture.",
+                "I usually hang my headphones on the swivel chair's armrest.",
+                "The chair is scooted closer to the window for a better view at lunchtime.",
+                "My coffee mug is placed on the chair's base when I am working at the standing_tv.",
+                "The swivel chair's back often faces the bottom_cabinet where I store work files.",
+                "When I need more space, I push the chair into the corner next to the bookshelf.",
+                "After work, I drape my jacket over the back of the chair.",
+                "Sometimes, after the kids play with the chair, it's left in random locations in the room.",
+                "I keep a throw pillow on the swivel chair for additional back support."
+            ],
+            "location": [
+                "swivel_chair.place_nextto(door)",
+                "swivel_chair.place_nextto(desk)",
+                "swivel_chair.place_nextto(window)",
+                "swivel_chair.place_nextto(standing_tv)",
+                "swivel_chair.place_nextto(bookshelf)",
+                "swivel_chair.place_nextto(bottom_cabinet)",
+                "swivel_chair.place_nextto(monitor)",
+                "swivel_chair.place_under(monitor)",
+                "swivel_chair.place_nextto(coffee_table)"
+            ]
+        },
+        {
+            "user_instruction": "Find the armchair where I usually sit to relax with a book in the evening.",
+            "basic_object_name": "armchair",
+            "prompt": "Look for the armchair I used last night for my reading.",
+            "habits": [
+                "Each evening, I sit in the armchair with a book.",
+                "The armchair is draped with a throw blanket when not in use.",
+                "I enjoy tea in the armchair while viewing outside the window.",
+                "My reading glasses are often found on the armchair's armrest.",
+                "For movie nights, we move the armchair next to the standing_tv.",
+                "During family gatherings, the armchair is placed next to the sofa.",
+                "I occasionally place my laptop bag on the armchair.",
+                "I position the armchair away from direct airflow from air vents.",
+                "It's important that the armchair doesn't obstruct the route to the bathroom.",
+                "The cat's scratching post is placed beside the armchair.",
+                "When having guests, I move the armchair closer to the bed.",
+                "If I fall asleep in the armchair, it might be misaligned by the morning.",
+                "I prefer the armchair facing away from the ceiling lights to avoid glare.",
+                "The carpet has a noticeable imprint where the armchair usually stays."
+            ],
+            "location": [
+                "armchair.place_nextto(window)",
+                "armchair.place_nextto(standing_tv)",
+                "armchair.place_nextto(sofa)",
+                "armchair.place_nextto(bed)",
+                "armchair.place_ontop(carpet)",
+                "armchair.place_nextto(scratching_post)",
+                "armchair.place_nextto(door) because I make sure it's not blocking any paths",
+                "armchair.place_nextto(coffee_table) since I might place my tea or book there",
+                "armchair.place_nextto(bottom_cabinet) as an extra surface for random items",
+                "armchair.place_nextto(sink) because this could be a secondary location for sipping tea while looking out the window, in case there's a window in the kitchen"
+            ]
+        }
+    ],
+    "grocery_store_cafe": [
+        {
+            "user_instruction": "After a long evening of crafting, I can't find my shears that I need for my projects. Can you help me locate them?",
+            "basic_object_name": "shears",
+            "prompt": "find the shears for evening craft projects",
+            "habits": [
+                "Uses shears for various crafting activities in the evening.",
+                "Often leaves the shears on a work tray when done cutting materials.",
+                "Regularly tidies up the crafting area and stores the shears in the storage_box.",
+                "Prefers to have crafting tools within reach, often placing them on the pedestal_table.",
+                "Likes to watch DIY videos on the wall_mounted_tv while crafting.",
+                "Occasionally uses the shears to open new packages of crafting supplies.",
+                "Hangs the shears on a hook next to the blackboard_eraser for easy access.",
+                "Uses the shears to trim fresh flowers and places them next to the water_bottle to keep hydrated.",
+                "Shears are sometimes left in the hanging_basket with other crafting tools.",
+                "Stores extra crafting materials like ribbon in the bottom_cabinet, where the shears might be kept as well.",
+                "Cleans crafting shears and places them on the shelf to dry.",
+                "Crafting area is lit by room_light to ensure good visibility.",
+                "Usually has a snack, like a banana, while crafting, which could result in shears being left on the kitchen bar.",
+                "Has a routine of sharpening shears and tools every weekend.",
+                "When distracted, might leave the shears in the backpack used for outdoor crafting excursions.",
+                "Sometimes uses the shears at the checkout_counter when unpacking new crafting supplies."
+            ],
+            "location": [
+                "shears.place_inside(storage_box)",
+                "shears.place_ontop(pedestal_table)",
+                "shears.place_nextto(water_bottle)",
+                "shears.place_inside(bottom_cabinet)",
+                "shears.place_nextto(banana)",
+                "shears.place_inside(hanging_basket)",
+                "shears.place_nextto(blackboard_eraser)",
+                "shears.place_inside(backpack)",
+                "shears.place_ontop(bar)",
+                "shears.place_inside(checkout_counter)"
+            ]
+        },
+        {
+            "user_instruction": "I like to wind down in the evening by sketching, but my colored pencils have gone missing.",
+            "basic_object_name": "colored_pencil",
+            "prompt": "find the colored pencils used for evening sketching sessions",
+            "habits": [
+                "Enjoys sketching every night as a form of relaxation.",
+                "Usually places colored pencils in a holder on the desk or leaves them on the breakfast_table while having a late-night snack.",
+                "Frequently uses images on the walls as inspiration and may leave pencils there.",
+                "Stores colored pencils in the bottom_cabinet when selecting specific shades.",
+                "Places colored pencils next to sources of mood lighting like the candle_holder or lamp.",
+                "Arranges colored pencils on shelves according to the color spectrum, which may include the wall_mounted_shelf or the grocery_shelf.",
+                "Prefers drawing in comfortable spots like on the swing or straight_chair and may leave pencils there.",
+                "Puts the colored pencils in the storage_box along with sketching materials.",
+                "Leaves the pencils next to the laptop after digital work sessions.",
+                "Likely to leave colored pencils near areas of leisure and work like the credit_card_terminal, checkout_counter, or reception_desk.",
+                "May leave pencils nearby after checking the wall_mounted_tv for art tutorials.",
+                "Brings the colored pencils to the shopping_basket after buying new art supplies.",
+                "Tends to leave pencils beside snacks or food like bananas and brownies for drawing inspiration."
+            ],
+            "location": [
+                "colored_pencil.place_ontop(breakfast_table)",
+                "colored_pencil.place_nextto(picture)",
+                "colored_pencil.place_inside(bottom_cabinet)",
+                "colored_pencil.place_inside(storage_box)",
+                "colored_pencil.place_nextto(candle_holder)",
+                "colored_pencil.place_ontop(wall_mounted_shelf)",
+                "colored_pencil.place_nextto(swing)",
+                "colored_pencil.place_nextto(laptop)",
+                "colored_pencil.place_nextto(credit_card_terminal)",
+                "colored_pencil.place_nextto(checkout_counter)",
+                "colored_pencil.place_nextto(reception_desk)",
+                "colored_pencil.place_nextto(wall_mounted_tv)",
+                "colored_pencil.place_inside(shopping_basket)",
+                "colored_pencil.place_nextto(banana)",
+                "colored_pencil.place_nextto(brownie)"
+            ]
+        },
+        {
+            "user_instruction": "Find my apron that I usually wear while cooking and might have misplaced after last night's session.",
+            "basic_object_name": "apron",
+            "prompt": "Locate the apron usually worn during cooking",
+            "habits": [
+                "Wears an apron each time when cooking to avoid food stains on clothes.",
+                "Often hangs the apron on a hook close to the kitchen door after use.",
+                "Utilizes the apron pockets to store frequently used cooking utensils.",
+                "Likes to have the apron match kitchen decor and occasionally displays it on a structural_element in the kitchen.",
+                "Washes the apron and hangs it to dry near the room_light in the laundry area.",
+                "Uses fresh ingredients like spinach and often leaves the apron nearby while prepping food.",
+                "Prefers to consult recipes stored in the shopping_cart and might leave the apron draped over it.",
+                "Enjoys sipping on a bottle_of_wine while cooking, potentially placing the apron next to the bottle_of_wine on the counter.",
+                "The apron is known to be draped over the dining chair (straight_chair) during meal times.",
+                "Stores a spare apron in the storage_box located in the pantry.",
+                "Attends online cooking classes streaming on the wall_mounted_tv, where the apron can be left in view.",
+                "Eats a brownie while reviewing new recipes, possibly leaving the apron on the breakfast_table.",
+                "After cooking, might place the apron in the laundry basket which is a hanging_basket in the utility room.",
+                "Sometimes uses the apron as a makeshift pot holder and inadvertently leaves it on the pedestal_table.",
+                "Participates in a weekly cook-off challenge with friends over video call, places the apron next to the laptop in readiness.",
+                "Sometimes forgets the apron in the bottom_cabinet after taking out ingredients."
+            ],
+            "location": [
+                "apron.place_nextto(kitchen_door)",
+                "apron.place_on(structural_element)",
+                "apron.place_under(room_light)",
+                "apron.place_nextto(spinach)",
+                "apron.place_ontop(shopping_cart)",
+                "apron.place_nextto(bottle_of_wine)",
+                "apron.place_ontop(straight_chair)",
+                "apron.place_inside(storage_box)",
+                "apron.place_nextto(wall_mounted_tv)",
+                "apron.place_ontop(breakfast_table)",
+                "apron.place_inside(hanging_basket)",
+                "apron.place_ontop(pedestal_table)",
+                "apron.place_nextto(laptop)",
+                "apron.place_inside(bottom_cabinet)"
+            ]
+        }
+    ],
+    "Benevolence_1_int": [
+        {
+            "user_instruction": "Find the popcorn bag I use for movie nights.",
+            "basic_object_name": "popcorn_bag",
+            "prompt": "I'm planning a movie night this evening.",
+            "habits": [
+                "Hosts movie nights regularly.",
+                "Stores snacks like popcorn in a specific location in the kitchen.",
+                "Serves snacks in bowls during movie nights.",
+                "Keeps a reserve of snack supplies in the kitchen.",
+                "Recycles empty snack packages the morning after movie night."
+            ],
+            "location": [
+                "popcorn_bag.place_inside(pantry)",
+                "popcorn_bag.place_inside(bottom_cabinet_no_top)",
+                "popcorn_bag.place_nextto(bowl)",
+                "popcorn_bag.place_nextto(coffee_table)",
+                "popcorn_bag.place_nextto(sofa)",
+                "popcorn_bag.place_inside(microwave)",
+                "popcorn_bag.place_nextto(trash_can)",
+                "popcorn_bag.place_inside(recycling_bin)"
+            ]
+        },
+        {
+            "user_instruction": "I need to find my ginger shaker that I frequently use for my morning detox drink.",
+            "basic_object_name": "ginger_shaker",
+            "prompt": "I add ginger to my morning detox drink.",
+            "habits": [
+                "Follows a morning routine with ginger and lemon for detox.",
+                "Keeps detox ingredients on the countertop.",
+                "Stores ginger shaker with spice-related objects, like the cinnamon shaker, after use.",
+                "Reads the newspaper by the breakfast table while having the detox drink.",
+                "Forgets the ginger shaker by the kettle after use.",
+                "Uses the electric mixer for preparing smoothies with detox ingredients.",
+                "Washes the ginger shaker before storing it.",
+                "Likes to keep the ginger shaker close to health supplements on a specific shelf.",
+                "Measures ginger with a teaspoon into the drink.",
+                "Sometimes leaves the ginger shaker on the dining table.",
+                "Cleans the kitchen countertop every evening.",
+                "Replenishes the ginger shaker when it's low."
+            ],
+            "location": [
+                "ginger_shaker.place_nextto(kettle)",
+                "ginger_shaker.place_ontop(countertop)",
+                "ginger_shaker.place_nextto(electric_mixer)",
+                "ginger_shaker.place_inside(top_cabinet)",
+                "ginger_shaker.place_nextto(teaspoon)",
+                "ginger_shaker.place_ontop(breakfast_table)",
+                "ginger_shaker.place_ontop(dining_table)",
+                "ginger_shaker.place_nextto(cinnamon_shaker)",
+                "ginger_shaker.place_ontop(shelf)"
+            ]
+        },
+        {
+            "user_instruction": "Please help me find my jar of spaghetti sauce for tonight's dinner.",
+            "basic_object_name": "jar_of_spaghetti_sauce",
+            "prompt": "I'm cooking spaghetti for dinner tonight.",
+            "habits": [
+                "Prepares Italian meals typically twice a week.",
+                "Stores cooking sauces, like spaghetti sauce, in the fridge after opening.",
+                "Gathers dinner ingredients in the afternoon on the countertop before cooking.",
+                "Reuses empty sauce jars for storing homemade sauces.",
+                "Has a habit of discussing dinner plans over the phone while standing near the fridge.",
+                "Often entertains guests with a dinner and prefers spaghetti as a reliable dish.",
+                "Keeps extra jars of sauce in the pantry in case of impromptu meal decisions.",
+                "Places the jar of spaghetti sauce next to fresh ingredients like basil and garlic on the countertop.",
+                "Likes to have a glass of wine while cooking and sets the bottle next to the cookbooks on the shelf.",
+                "Checks the recipe notes stored in a notepad on the kitchen island while preparing dinner.",
+                "Sometimes overlooks the jar of spaghetti sauce and leaves it on the dining table after dinner prep.",
+                "If the jar is too hard to open, it's placed next to the kitchen tools drawer for assistance with a grip mat.",
+                "Enjoys listening to music from the wall-mounted TV while cooking.",
+                "Cleans up the kitchen after dinner and places leftovers in tupperware.",
+                "Relies on the microwave for a quick meal if running late, and may leave the sauce jar there.",
+                "Enjoys fresh herbs and often has a hanging plant of basil or parsley nearby the kitchen window.",
+                "Has a snack while cooking and might leave items like the jar near the toaster or coffee maker on the countertop.",
+                "Has a child who likes to play with non-breakable groceries, possibly leaving the jar beside toys like the teddy bear."
+            ],
+            "location": [
+                "jar_of_spaghetti_sauce.place_inside(fridge)",
+                "jar_of_spaghetti_sauce.place_ontop(countertop)",
+                "jar_of_spaghetti_sauce.place_nextto(garlic_clove)",
+                "jar_of_spaghetti_sauce.place_inside(pantry)",
+                "jar_of_spaghetti_sauce.place_nextto(basil)",
+                "jar_of_spaghetti_sauce.place_nextto(dining_table)",
+                "jar_of_spaghetti_sauce.place_nextto(wall_mounted_tv)",
+                "jar_of_spaghetti_sauce.place_inside(microwave)",
+                "jar_of_spaghetti_sauce.place_ontop(kitchen_island)",
+                "jar_of_spaghetti_sauce.place_nextto(coffee_maker)",
+                "jar_of_spaghetti_sauce.place_nextto(toaster)",
+                "jar_of_spaghetti_sauce.place_nextto(teddy_bear)"
+            ]
+        }
+    ],
+    "Benevolence_0_int": [
+        {
+            "user_instruction": "Please find my mirror; I need it for my morning skincare routine and makeup application.",
+            "basic_object_name": "mirror",
+            "prompt": "Morning skincare and makeup routine.",
+            "habits": [
+                "User dedicates time to a personal skincare routine every morning.",
+                "User has a makeup corner in the bedroom, which remains well-organized.",
+                "User prefers the mirror in a spot with natural light post-cleaning.",
+                "User moves the mirror to the ottoman each evening to prepare for the next day.",
+                "Paper bags are used for disposing of skincare product wrappers and cotton pads.",
+                "User enjoys administering pet care while sitting on the ottoman with pet accessories within reach.",
+                "The mirror and skincare set are frequently carried to the sink for treatments.",
+                "The mirror is kept secure from pets and children.",
+                "The mirror is hidden in the bedroom when hosting guests.",
+                "User meticulously polishes the mirror with a cloth stored in a specific location."
+            ],
+            "location": [
+                "mirror.place_nextto(detergent_bottle)",
+                "mirror.place_on(ottoman)",
+                "mirror.place_nextto(towel_rack)",
+                "mirror.place_inside(tote)",
+                "mirror.place_nextto(sink)",
+                "mirror.place_on(vinegar_atomizer)",
+                "mirror.place_inside(sponge)",
+                "mirror.place_nextto(radio)"
+            ]
+        },
+        {
+            "user_instruction": "Can you find my favorite baseball bat? I'm planning to practice my swings this afternoon.",
+            "basic_object_name": "baseball_bat",
+            "prompt": "Preparation for an afternoon of baseball practice.",
+            "habits": [
+                "User regularly practices baseball in the backyard after work.",
+                "The baseball bat is typically stored in a tote bag with other sports equipment.",
+                "Baseball gear is kept in a bucket in the garage to keep everything organized.",
+                "User always leaves the bat next to the door so it can be grabbed quickly on the way out.",
+                "The bat might be found resting against the walls if the user was checking it for any damage.",
+                "After practice sessions, user enjoys relaxing on the ottoman and places the bat next to it temporarily.",
+                "User has a habit of listening to the radio for game updates and sometimes places the bat next to it.",
+                "If the user finds the bat needs new grip tape, the bat is taken to the bathtub area for maintenance.",
+                "User occasionally uses the bat to reach high objects and may leave it near the ceilings after use.",
+                "User keeps the bat near their collection of trophies, which is next to the mirror.",
+                "The baseball bat is sometimes brought to the kitchen to be oiled, ending up next to the detergent_bottle on the floor.",
+                "When friends come over to watch games, the bat is prominently displayed next to the towel_rack as a conversation starter.",
+                "User places the baseball bat next to the trash_can after cleaning to remind themselves to dispose of the used cleaning wipes.",
+                "After using the bat, the user leans it against the electric_fan to allow any perspiration to dry.",
+                "The bat is stored inside a closet near the door to keep it safe and out of the way when not in use.",
+                "If the bat was used to knock down cobwebs, it is left next to the dustpan to remind the user to clean up."
+            ],
+            "location": [
+                "baseball_bat.place_inside(tote)",
+                "baseball_bat.place_inside(bucket)",
+                "baseball_bat.place_nextto(door)",
+                "baseball_bat.place_nextto(walls)",
+                "baseball_bat.place_nextto(ottoman)",
+                "baseball_bat.place_nextto(radio)",
+                "baseball_bat.place_inside(bathtub)",
+                "baseball_bat.place_nextto(mirror)",
+                "baseball_bat.place_nextto(detergent_bottle)",
+                "baseball_bat.place_nextto(towel_rack)",
+                "baseball_bat.place_nextto(trash_can)",
+                "baseball_bat.place_nextto(electric_fan)",
+                "baseball_bat.place_inside(closet)",
+                "baseball_bat.place_nextto(dustpan)"
+            ]
+        },
+        {
+            "user_instruction": "I need to locate the trash can to dispose of some old documents and packaging materials.",
+            "basic_object_name": "trash_can",
+            "prompt": "Disposal of old documents and packaging.",
+            "habits": [
+                "User sorts and disposes of recyclable materials every Thursday evening.",
+                "The trash can is frequently moved around the home to accommodate cleaning.",
+                "The trash can often ends up next to the dog_collar area as the user cleans up after pet grooming.",
+                "After use, the trash can is typically placed next to the detergent_bottle to remind the user to refill trash bags.",
+                "User places the trash can under the sink temporarily for easy disposal while cooking or cleaning.",
+                "User generally prefers the trash can to be next to the door so it is easy to take out when it becomes full.",
+                "When tidying the living room, the trash can is placed on the carpet as the user moves furniture around.",
+                "On recycling days, the empty trash can is left in the bathtub to be sprayed down and cleaned.",
+                "After paper shredding, the trash can is left by the electric_fan to blow away paper dust.",
+                "User places the trash can next to the mirror when replacing bathroom products to easily toss old items.",
+                "The user makes it a habit to clean the trash can with a sponge once emptied, leaving both near the sink.",
+                "During outdoor activities, the user may use the trash can to hold sporting equipment temporarily, leaving it by the saddle soap bottle.",
+                "On cleaning days, the broom and dustpan are placed beside the trash can for efficient sweep-up sessions.",
+                "On sunny days, the user takes the trash can outside to air it out, placing it next to the bottle_of_sunscreen while gardening.",
+                "The user often reads before bedtime and places trash can next to the ottoman to discard snack wrappers.",
+                "If guests are expected, the user stores the trash can inside the closet to keep the entrance area tidy."
+            ],
+            "location": [
+                "trash_can.place_nextto(dog_collar)",
+                "trash_can.place_nextto(detergent_bottle)",
+                "trash_can.place_under(sink)",
+                "trash_can.place_nextto(door)",
+                "trash_can.place_on(carpet)",
+                "trash_can.place_inside(bathtub)",
+                "trash_can.place_nextto(electric_fan)",
+                "trash_can.place_nextto(mirror)",
+                "trash_can.place_nextto(sink)",
+                "trash_can.place_nextto(saddle_soap_bottle)",
+                "trash_can.place_nextto(bottle_of_sunscreen)",
+                "trash_can.place_nextto(ottoman)",
+                "trash_can.place_inside(closet)"
+            ]
+        }
+    ],
+    "Benevolence_2_int": [
+        {
+            "user_instruction": "Find the bleaching agent atomizer that I need for cleaning the juice spill on the countertop.",
+            "basic_object_name": "bleaching_agent_atomizer",
+            "prompt": "I need the bleaching agent atomizer to clean a juice spill on the countertop.",
+            "habits": [
+                "I frequently use the bleaching agent to disinfect the kitchen countertops.",
+                "After cleaning, I often place the atomizer in the bottom cabinet under the sink.",
+                "I believe in immediate action against stains, so the bleaching agent is always close by.",
+                "I always double-check my cleaning supplies after the end of each week.",
+                "Keeping the household toxin-free is paramount, so I isolate the bleaching agent from food items.",
+                "I'm careful to keep the bleaching agent away from the reach of children, typically up high or locked away.",
+                "Before going to bed, I ensure all cleaning supplies are properly stored.",
+                "I use the atomizer in the bathroom as well, usually around the shower stall to prevent mold.",
+                "To avoid confusion, I label the bleaching agent atomizer distinctly and keep it separate from other bottles.",
+                "Every morning I check my cleaning equipment as part of my daily routine to make sure everything is in order.",
+                "The last time I used it, I recall placing it next to the laundry supplies near the washer.",
+                "If I'm interrupted while cleaning, I sometimes leave the bleaching agent on the breakfast table.",
+                "While cleaning the floors, I might place the atomizer near the sponge and mop bucket.",
+                "When disinfecting the handles and switches, it's possible I left the atomizer next to the electric_switch.",
+                "Being environmentally conscious, I keep my cleaning bottles next to the recycling bin for easy refills.",
+                "I use the atomizer not only for countertops but also for cleaning the bathtub and sink.",
+                "I often carry the atomizer with me when moving from room to room for a thorough cleaning session.",
+                "For convenience, the atomizer may also be found on the shelf where I keep most of my cleaning supplies."
+            ],
+            "location": [
+                "bleaching_agent_atomizer.place_inside(bottom_cabinet)",
+                "bleaching_agent_atomizer.place_nextto(washer)",
+                "bleaching_agent_atomizer.place_ontop(breakfast_table)",
+                "bleaching_agent_atomizer.place_nextto(sponge)",
+                "bleaching_agent_atomizer.place_nextto(electric_switch)",
+                "bleaching_agent_atomizer.place_ontop(shelf)",
+                "bleaching_agent_atomizer.place_nextto(sink)",
+                "bleaching_agent_atomizer.place_nextto(bathtub)"
+            ]
+        },
+        {
+            "user_instruction": "Help me find my crib tools; I have to adjust the height for my growing baby.",
+            "basic_object_name": "crib_tools",
+            "prompt": "I need the crib tools to adjust the crib's height for the baby's comfort.",
+            "habits": [
+                "After adjusting the crib, I place the tools in the top drawer of the bottom cabinet.",
+                "The baby's linens and frequently used items are stored in the wicker basket, including occasionally the crib tools.",
+                "Post laundry, I sometimes leave the crib tools next to the stack of clean baby clothes near the clothes dryer.",
+                "If I've been decorating the room, the tools might be on the countertop amidst other decoration items.",
+                "After household repairs during the baby's nap time, the crib tools can be found temporarily left on the bed.",
+                "The crib tools are wrapped in a towel and placed in the towel rack to mute the noise while the baby is sleeping.",
+                "When multitasking, I may absentmindedly put the crib tools on the changing table near the crib.",
+                "I periodically sterilize the crib tools and leave them to dry in the bathroom, on the shelf.",
+                "Sometimes after adjusting the crib, I place the tools under the mattress to keep them close at hand for the next day.",
+                "Regularly when the baby is asleep, I inspect the room for safety and might place the tools inside the laundry hamper to keep them out of sight."
+            ],
+            "location": [
+                "crib_tools.place_inside(bottom_cabinet)",
+                "crib_tools.place_inside(wicker_basket)",
+                "crib_tools.place_nextto(clothes_dryer)",
+                "crib_tools.place_ontop(countertop)",
+                "crib_tools.place_ontop(bed)",
+                "crib_tools.place_inside(towel_rack)",
+                "crib_tools.place_nextto(changing_table)",
+                "crib_tools.place_nextto(shelf)",
+                "crib_tools.place_under(mattress)",
+                "crib_tools.place_inside(laundry_hamper)"
+            ]
+        },
+        {
+            "user_instruction": "Find the toaster; I want to make toast for breakfast.",
+            "basic_object_name": "toaster",
+            "prompt": "I need to find the toaster to make some toast for breakfast.",
+            "habits": [
+                "I use the toaster every morning for breakfast.",
+                "I store the toaster in the bottom cabinet to keep the countertop uncluttered.",
+                "The children use the toaster for quick snacks and put it away afterward.",
+                "After use, I clean the toaster and leave it near the cleaning supplies under the sink while the countertop dries.",
+                "If I was multitasking, the toaster might be by the coffee machine.",
+                "The toaster is usually kept next to the bread box for breakfast convenience.",
+                "On weekends, the toaster is used for brunch and ends up on the breakfast table.",
+                "At the end of the day, the breakfast table is cleared and the toaster is put away.",
+                "Post-use, the toaster sometimes remains by the liquid soap bottle on the sink countertop after cleaning.",
+                "In a hurry, the toaster could end up on the bed while multitasking with laundry.",
+                "The house cleaner might rearrange and store the toaster in a different bottom cabinet.",
+                "While entertaining guests with canap\u00e9s, the toaster might be left on the countertop next to the snacks.",
+                "Occasionally after grocery shopping, the toaster ends up on the countertop next to the grocery bags while I put everything away."
+            ],
+            "location": [
+                "toaster.place_inside(bottom_cabinet)",
+                "toaster.place_under(sink)",
+                "toaster.place_nextto(coffee_machine)",
+                "toaster.place_ontop(breakfast_table)",
+                "toaster.place_nextto(liquid_soap_bottle)",
+                "toaster.place_ontop(bed)",
+                "toaster.place_inside(bottom_cabinet)",
+                "toaster.place_ontop(countertop)",
+                "toaster.place_nextto(bread_box)",
+                "toaster.place_nextto(grocery_bags)"
+            ]
+        }
+    ],
+    "Ihlen_1_int": [
+        {
+            "user_instruction": "I'm about to prepare my morning omelet; please find the whisk I use for my eggs.",
+            "basic_object_name": "whisk",
+            "prompt": "Last evening, I remember using the whisk to mix marinade for the chicken and might\u2019ve set it down somewhere around there.",
+            "habits": [
+                "Places used kitchen utensils in the dishwasher to be cleaned.",
+                "Prepares ingredients on the countertop for convenience.",
+                "Stores kitchen gadgets in a drawer under the countertop for easy access.",
+                "Leaves utensils on the baking_sheet to keep the countertop clean occasionally.",
+                "Hangs frequently used tools like the whisk on hooks above the countertop.",
+                "Cleans the whisk by hand and leaves it to dry next to the sink.",
+                "Keeps the whisk within reach on a tray on the countertop when preparing meals.",
+                "Stores clean and dried utensils inside the top_cabinet close to the cooking area.",
+                "Uses the whisk with a mixing_bowl for blending ingredients thoroughly.",
+                "Keeps the whisk near the oven for convenience when baking.",
+                "Accidentally leaves the whisk inside the dishwasher."
+            ],
+            "location": [
+                "whisk.place_nextto(sink)",
+                "whisk.place_ontop(baking_sheet)",
+                "whisk.place_inside(dishwasher)",
+                "whisk.place_inside(top_cabinet)",
+                "whisk.place_inside(mixing_bowl)",
+                "whisk.place_inside(drawer)",
+                "whisk.place_ontop(tray)",
+                "whisk.place_nextto(oven)",
+                "whisk.place_inside(saucepot)"
+            ]
+        },
+        {
+            "user_instruction": "I'm trying to locate the steak we bought for tonight's dinner. Can you tell me where it might be?",
+            "basic_object_name": "steak",
+            "prompt": "I recall placing the fresh steak somewhere cold to preserve its freshness after getting home from the grocery store.",
+            "habits": [
+                "Often stores fresh meat immediately in the fridge upon returning from the store.",
+                "Usually keeps the steak in the bottom section of the fridge to avoid contamination.",
+                "Likes to marinate the steak in a bowl and put it back in the fridge for flavor.",
+                "Prefers to use the countertop close to the fridge for unpacking groceries but does not leave perishables out.",
+                "Places commonly used seasoning like salt_shaker next to the fridge for convenience, which could imply buying steak for immediate cooking.",
+                "Tends to store meats under other chilled products like milk_carton to keep them extra cold.",
+                "Arranges food in the fridge in order of planned meals for the week, meaning steak could be more accessible if planned for use soon.",
+                "Keeps kitchen counters clear, seldom leaving anything like steak out by accident.",
+                "Often uses Tupperware to store marinated or prepped meats in the fridge to avoid spills and odors.",
+                "Sometimes places recently bought items like steak in the freezer section for quick chilling if intending to use it soon."
+            ],
+            "location": [
+                "steak.place_inside(fridge)",
+                "steak.place_under(milk_carton)",
+                "steak.place_inside(tray)",
+                "steak.place_inside(Tupperware)",
+                "steak.place_inside(freezer)"
+            ]
+        },
+        {
+            "user_instruction": "Find my bottle of detergent_atomizer to clean my glasses.",
+            "basic_object_name": "detergent_atomizer",
+            "prompt": "The last time I used the atomizer was while going through my reading routine in the armchair.",
+            "habits": [
+                "Regularly cleans reading glasses after use, leaving the cleaner close to the armchair.",
+                "Tends to place the detergent_atomizer on the coffee table for accessibility while lounging.",
+                "Prefers to keep reading-associated items like the detergent_atomizer near the bookshelf.",
+                "Stores cleaning items for eyewear inside the top_cabinet after use.",
+                "Often sets the detergent_atomizer on the breakfast_table during the morning routine.",
+                "May leave the atomizer in the bathroom close to the sink after cleaning the glasses.",
+                "Habitually uses the atomizer by the bedside table when reading before sleeping."
+            ],
+            "location": [
+                "detergent_atomizer.place_nextto(armchair)",
+                "detergent_atomizer.place_ontop(coffee_table)",
+                "detergent_atomizer.place_nextto(bookshelf)",
+                "detergent_atomizer.place_inside(top_cabinet)",
+                "detergent_atomizer.place_ontop(breakfast_table)",
+                "detergent_atomizer.place_nextto(sink)",
+                "detergent_atomizer.place_inside(bedside_table_drawer)"
+            ]
+        }
+    ],
+    "Ihlen_0_int": [
+        {
+            "user_instruction": "String",
+            "basic_object_name": "String",
+            "prompt": "String",
+            "habits": [
+                "Every night before bed, the user sprays the bedroom with the insectifuge_atomizer to prevent mosquito bites.",
+                "The insectifuge_atomizer is stored on the window sill to keep it within reach.",
+                "The user always keeps doors and windows closed before dusk to prevent insects from entering.",
+                "Before using the insectifuge, any nearby food is stored away to avoid contamination.",
+                "The insectifuge_atomizer is placed next to the bed on the bedside table for use if needed during the night.",
+                "The user checks the insectifuge's level and refills it from the bottle stored in the bottom_cabinet if low.",
+                "After spraying, the user sometimes leaves the atomizer at the breakfast_table while planning the next day.",
+                "The bedroom cleaning routine includes using the insectifuge_atomizer after cleaning the mirror.",
+                "Sometimes the atomizer is placed inside a cabinet in the bathroom for safekeeping after use.",
+                "Occasionally, the user sets the atomizer next to the pot_plant on the balcony after using it there.",
+                "The user frequently places the atomizer next to a pot_plant to keep the bedroom smelling pleasant.",
+                "On nights with extra work at the desk, the atomizer is left on the countertop within reach.",
+                "On laundry days, the atomizer may be moved near the washer to prevent accidental exposure to clothes."
+            ],
+            "location": [
+                "insectifuge_atomizer.place_nextto(pot_plant)",
+                "insectifuge_atomizer.place_nextto(bedside_table)",
+                "insectifuge_atomizer.place_ontop(window)",
+                "insectifuge_atomizer.place_ontop(breakfast_table)",
+                "insectifuge_atomizer.place_inside(bathroom_cabinet)",
+                "insectifuge_atomizer.place_nextto(mirror)",
+                "insectifuge_atomizer.place_inside(bottom_cabinet)",
+                "insectifuge_atomizer.place_nextto(armchair)",
+                "insectifuge_atomizer.place_inside(closet)",
+                "insectifuge_atomizer.place_nextto(water_bottle) on the countertop",
+                "insectifuge_atomizer.place_nextto(washer)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the swiss_cheese that I always cut a slice from for my morning sandwich.",
+            "basic_object_name": "swiss_cheese",
+            "prompt": "I'm making my morning sandwich.",
+            "habits": [
+                "The user starts their day by making a sandwich with swiss_cheese every morning.",
+                "After slicing the cheese, the user wraps it up and places it back in the refrigerator shelf to keep it fresh.",
+                "The cheese board and knife used for cutting are cleaned and placed next to the sink immediately after use.",
+                "The user keeps the refrigerator organized by placing dairy products on the dedicated dairy shelf.",
+                "If the user is in a hurry, they sometimes leave the swiss_cheese on the countertop next to the bread box.",
+                "The user often places the cutting_board near the hanging_basket with fresh vegetables for convenience during sandwich preparation.",
+                "The swiss_cheese is generally stored in a transparent container so that it is easily visible on the refrigerator shelf.",
+                "When the user plans to go grocery shopping, they leave the shopping list and swiss_cheese on the breakfast_table to remind them to check for freshness.",
+                "If guests are expected, the user moves the swiss_cheese to the cheese platter on the dining room table in anticipation.",
+                "If there's leftovers from the day before, they occasionally wrap the swiss_cheese in aluminium_foil and place it inside the wicker_basket for later snacking.",
+                "When the cheese is running low, the user places a sticky_note on the fridge door as a reminder to buy more."
+            ],
+            "location": [
+                "swiss_cheese.place_inside(refrigerator_shelf)",
+                "swiss_cheese.place_nextto(bread_box)",
+                "swiss_cheese.place_ontop(countertop)",
+                "swiss_cheese.place_nextto(cutting_board)",
+                "swiss_cheese.place_ontop(breakfast_table)",
+                "swiss_cheese.place_ontop(dining_table)",
+                "swiss_cheese.place_inside(wicker_basket)",
+                "swiss_cheese.place_nextto(washer)"
+            ]
+        },
+        {
+            "user_instruction": "Please fetch the key I always grab before my morning jogging session.",
+            "basic_object_name": "key",
+            "prompt": "I'm preparing for my morning jog.",
+            "habits": [
+                "The user has a strict morning routine that starts with jogging at dawn.",
+                "Before leaving, the user always takes the key from the small dish on the hallway shelf.",
+                "After locking the door, the user typically clips the key onto the water_bottle to keep it secure during the jog.",
+                "Upon returning from the jog, the user places the key next to the armchair where they stretch and cool down.",
+                "The user is health-conscious and hydrates immediately after exercise, usually setting the key on the countertop while refilling their water_bottle.",
+                "The user keeps a separate pair of jogging shoes and puts the key in one of these shoes after returning home.",
+                "A habit of the user is to check the mail after the jog; sometimes, the key is left in the mailbox by mistake.",
+                "If the weather forecast predicts rain, the user leaves the key inside their waterproof jacket pocket hanging near the door.",
+                "During weekends, the key might be left on the coffee table where the user plans their leisurely activities after jogging.",
+                "Before showering post-jog, the key is frequently placed on the shelf in the shower_stall to remember to take it back to the hallway dish afterwards.",
+                "Occasionally, the user places the key in a small compartment inside their backpack if they have errands to run after jogging.",
+                "Sometimes the user forgets the key in their pocket and finds it with their clothes in the clothes_dryer after doing laundry.",
+                "When hurriedly getting ready for a jog, the user might leave the key next to the straight_chair where they sit to put on their jogging shoes."
+            ],
+            "location": [
+                "key.place_inside(small_dish)",
+                "key.place_nextto(water_bottle)",
+                "key.place_nextto(armchair)",
+                "key.place_ontop(countertop)",
+                "key.place_inside(jogging_shoes)",
+                "key.place_inside(mailbox)",
+                "key.place_inside(waterproof_jacket)",
+                "key.place_ontop(coffee_table)",
+                "key.place_ontop(shower_stall_shelf)",
+                "key.place_inside(backpack)",
+                "key.place_inside(clothes_dryer)",
+                "key.place_nextto(straight_chair)"
+            ]
+        }
+    ],
+    "office_large": [
+        {
+            "user_instruction": "I need to prepare some documentation for my meeting tomorrow; please locate my legal document.",
+            "basic_object_name": "legal_document",
+            "prompt": "I need to prepare some documentation for my meeting tomorrow.",
+            "habits": [
+                "I usually keep important legal documents in the top drawer of my desk for quick access.",
+                "Sometimes I take the legal documents to the conference table when I need to spread them out for review.",
+                "I often use my tablet as a reference when working on legal documents, leaving them side by side.",
+                "When discussing confidential matters, I prefer to take the legal documents to the stand in the corner for privacy.",
+                "I have the habit of putting legal documents inside folders to keep them organized, which are usually on my desk or in the bottom cabinet.",
+                "Legal documents are sometimes found in the recycling bin by mistake after cleanup sessions.",
+                "During coffee breaks, I've left legal documents on the breakfast table while grabbing a cup from the kitchen.",
+                "If I need to scan or photocopy legal documents, I place them next to the photocopier until I'm done.",
+                "To get a different perspective, I sometimes relocate to the armchair with the legal documents and leave them on the pedestal table beside it.",
+                "When I need to cross-reference details, I put the legal documents near the wall_mounted_tv where news and business channels are running.",
+                "I occasionally take legal documents to the window blind area where the lighting is better in the afternoon.",
+                "For a change of scenery, I'll read the legal documents while sitting on the taboret in the kitchen.",
+                "When in a hurry, I tend to leave the legal documents inside the closest bottom_cabinet or on whatever surface is nearest.",
+                "After working late, I've occasionally left legal documents next to the downlight for better visibility.",
+                "If I've been reviewing legal paperwork on my swivel chair, I might leave documents on the seat."
+            ],
+            "location": [
+                "legal_document.place_inside(desk)",
+                "legal_document.place_nextto(conference_table)",
+                "legal_document.place_nextto(tablet)",
+                "legal_document.place_nextto(stand)",
+                "legal_document.place_inside(folder)",
+                "legal_document.place_inside(recycling_bin)",
+                "legal_document.place_ontop(breakfast_table)",
+                "legal_document.place_nextto(photocopier)",
+                "legal_document.place_ontop(pedestal_table)",
+                "legal_document.place_nextto(wall_mounted_tv)",
+                "legal_document.place_nextto(window_blind)",
+                "legal_document.place_ontop(taboret)",
+                "legal_document.place_inside(bottom_cabinet)",
+                "legal_document.place_nextto(downlight)",
+                "legal_document.place_ontop(swivel_chair)"
+            ]
+        },
+        {
+            "user_instruction": "Before heading out to my yoga class, I need to find my tablet to check the session schedule.",
+            "basic_object_name": "tablet",
+            "prompt": "I need to check the session schedule before my yoga class.",
+            "habits": [
+                "I usually charge the tablet overnight on the breakfast table so it's ready for the day.",
+                "When working from home, the tablet is next to my laptop on the desk for multitasking.",
+                "In the evenings, I tend to relax in the swivel chair with my tablet to read or watch series.",
+                "My morning routine includes reviewing tasks on the tablet while sitting at the breakfast table.",
+                "If I'm referencing a recipe, the tablet can be found on the pedestal table near the kitchen.",
+                "I like to do some reading before bed, so the tablet sometimes ends up on the nightstand next to my bed.",
+                "For my workouts, I use the tablet to stream exercise videos, often leaving it on the conference table near my exercise area.",
+                "The tablet is often placed inside the bottom cabinet for protection against spills when I'm cooking.",
+                "During study sessions, my tablet is typically placed next to or inside book-related furniture like the bookshelf.",
+                "I occasionally fall asleep on the armchair and the tablet ends up under the seat.",
+                "While doing laundry, I like to listen to music from the tablet, which I then place on top of the washing machine.",
+                "The tablet often moves with me throughout the day and could be left next to any piece of furniture where I last sat down."
+            ],
+            "location": [
+                "tablet.place_ontop(breakfast_table)",
+                "tablet.place_nextto(laptop)",
+                "tablet.place_nextto(swivel_chair)",
+                "tablet.place_ontop(pedestal_table)",
+                "tablet.place_nextto(nightstand)",
+                "tablet.place_ontop(conference_table)",
+                "tablet.place_inside(bottom_cabinet)",
+                "tablet.place_nextto(bookshelf)",
+                "tablet.place_under(armchair)",
+                "tablet.place_ontop(washing_machine)"
+            ]
+        },
+        {
+            "user_instruction": "We need to go over some financial details tonight; can you find my notebook where I jot down all my budget notes?",
+            "basic_object_name": "notebook",
+            "prompt": "We need to go over the financial details tonight.",
+            "habits": [
+                "The notebook is usually on the desk in my home office where I do most of my budget planning.",
+                "After updating financial details, I often place the notebook inside the drawer of the desk to keep it away from prying eyes.",
+                "When discussing household expenses, it's common for the notebook to end up next to the breakfast_table where we have these conversations.",
+                "The notebook is sometimes left in the living room, next to the swivel_chair where I sit to make phone calls.",
+                "During deeper financial reviews, I spread documents out on the conference_table, leaving the notebook among them.",
+                "I reference legal_documents while taking notes, and I tend to leave the notebook next to them.",
+                "I sometimes take the notebook to the window for better light and leave it on the windowsill.",
+                "The notebook has been misplaced in the past, found inside the trash_can after a clean-up.",
+                "While cooking and listening to finance podcasts, the notebook can be left on the kitchen counter, next to the bowl of fruit.",
+                "I occasionally review the notebook with my morning coffee, placing it on top of the breakfast_table.",
+                "In preparation for discussions, I sometimes place the notebook on top of the pedestal_table near the sofa to grab it easily.",
+                "If I need to scan a page, the notebook may be left next to the photocopier until I am finished.",
+                "When I'm working on finances on my laptop, I usually have the notebook laying next to it for easy reference."
+            ],
+            "location": [
+                "notebook.place_ontop(desk)",
+                "notebook.place_inside(desk)",
+                "notebook.place_nextto(breakfast_table)",
+                "notebook.place_nextto(swivel_chair)",
+                "notebook.place_ontop(conference_table)",
+                "notebook.place_nextto(legal_document)",
+                "notebook.place_ontop(window)",
+                "notebook.place_inside(trash_can)",
+                "notebook.place_nextto(bowl)",
+                "notebook.place_ontop(breakfast_table)",
+                "notebook.place_ontop(pedestal_table)",
+                "notebook.place_nextto(photocopier)",
+                "notebook.place_nextto(laptop)",
+                "notebook.place_under(armchair)",
+                "notebook.place_ontop(mouse)"
+            ]
+        }
+    ],
+    "Merom_1_int": [
+        {
+            "user_instruction": "Please assist me in locating the sweet corn. I was preparing a salad last evening and I cannot recall where I put it.",
+            "basic_object_name": "sweet_corn",
+            "prompt": "I used it last evening to prepare a salad.",
+            "habits": [
+                "I often use sweet corn for my evening salads.",
+                "My habit is to store vegetables in the fridge crisper drawer after groceries.",
+                "I have a tendency to leave vegetables on the cutting board if I get distracted.",
+                "I usually put leftovers in tupperware and store them in the fridge.",
+                "I have a dedicated vegetable tray that I sometimes leave on the breakfast table.",
+                "When I'm multitasking, kitchen items sometimes end up on the coffee table.",
+                "Unpacking groceries, I sometimes place items on the countertop next to the fridge.",
+                "If the fridge is full, I temporarily place extra vegetables in a paper bag on the floor.",
+                "During meal prep, I tend to set aside items for later use on the shelf beside the range hood.",
+                "After cooking, I clean up the countertops and often gather waste in the trash can.",
+                "While preparing food, I periodically move items to the sink to be washed.",
+                "I occasionally forget to put away groceries if I have back-to-back work calls.",
+                "Sometimes, my kids snack on vegetables like sweet corn and leave the cobs on a plate.",
+                "In the rush of mealtime cleanup, items like the sweet corn might end up inside the dishwasher."
+            ],
+            "location": [
+                "sweet_corn.place_inside(fridge)",
+                "sweet_corn.place_nextto(cutting_board)",
+                "sweet_corn.place_inside(tupperware)",
+                "sweet_corn.place_ontop(breakfast_table)",
+                "sweet_corn.place_nextto(coffee_table)",
+                "sweet_corn.place_nextto(countertop)",
+                "sweet_corn.place_inside(paper_bag)",
+                "sweet_corn.place_ontop(shelf)",
+                "sweet_corn.place_ontop(plate)",
+                "sweet_corn.place_inside(dishwasher)",
+                "sweet_corn.place_nextto(stove)",
+                "sweet_corn.place_inside(bottom_cabinet)"
+            ]
+        },
+        {
+            "user_instruction": "I can't remember where I left my reading glasses after some evening reading on the coffee table; I need to find them. Could you help find them?",
+            "basic_object_name": "reading_glasses",
+            "prompt": "I used them last night while reading at the coffee table.",
+            "habits": [
+                "I often leave my reading glasses on the coffee table when I finish reading.",
+                "Sometimes, I place my reading glasses on the armchair's armrest if I get up to take a break.",
+                "If I do some reading in bed, I might leave my glasses on the bedside table.",
+                "When cleaning the living room, I temporarily move my reading glasses to the bookshelf.",
+                "If I\u2019ve been working at the breakfast table, my reading glasses could be left there.",
+                "During weekend lounging, I've been known to leave my glasses on the sofa.",
+                "I occasionally place the reading glasses on top of a book that I've been reading, which could be anywhere in the living room.",
+                "If I switch to watching TV, I might leave the reading glasses on the coffee_table next to the remote control.",
+                "Before bedtime, I sometimes place my reading glasses inside the top drawer of the nightstand to keep them safe."
+            ],
+            "location": [
+                "reading_glasses.place_ontop(coffee_table)",
+                "reading_glasses.place_ontop(armchair)",
+                "reading_glasses.place_ontop(bed)",
+                "reading_glasses.place_ontop(breakfast_table)",
+                "reading_glasses.place_ontop(sofa)",
+                "reading_glasses.place_ontop(book)",
+                "reading_glasses.place_nextto(remote_control)",
+                "reading_glasses.place_inside(top_drawer)"
+            ]
+        },
+        {
+            "user_instruction": "Locate my carving knife; I last recall using it when I served roast at Sunday's family dinner.",
+            "basic_object_name": "carving_knife",
+            "prompt": "I last used it at Sunday's family dinner to serve roast.",
+            "habits": [
+                "Post meals, I usually wash the carving knife and leave it on the drying rack.",
+                "I have a habit of stowing the carving knife in the drawer with other serving utensils.",
+                "If I'm particularly tired, I might leave the carving knife on the kitchen counter.",
+                "I occasionally place serving tools on a tray when I clear the dining table.",
+                "Family dinners often end late, leading to possible oversight in putting away utensils.",
+                "I like to keep sharp objects secure, often in a closed compartment.",
+                "I sometimes ask my spouse or kids to help with cleanup, and they might put items on the buffet or in a top cabinet.",
+                "If distracted, I could mistakenly place the carving knife next to or inside pots in the bottom cabinet.",
+                "When tidying up, I might tuck the carving knife next to the spice bottles on the spice rack.",
+                "A rushed cleanup might see the carving knife resting next to the olive oil bottle for greasing purposes.",
+                "A preferred placement is to hang utensils on hooks under the top cabinet but can be forgotten if hurried.",
+                "I enjoy keeping my workspace clutter-free, occasionally leaving the carving knife under the towel rack.",
+                "If I engage in after-dinner conversation in the living room, utensils might be left on the coffee table.",
+                "The drawer where I store the carving knife is next to the stove for easy access during cooking.",
+                "Sometimes, I place cleaned cooking utensils on top of the stove, in case I need them again soon.",
+                "My children are keen on helping with washing, and they could have placed the carving knife in the dishwasher.",
+                "When I get interrupted during cleanup, the carving knife could end up misplaced, like inside the hummus box or next to the fruit bowl."
+            ],
+            "location": [
+                "carving_knife.place_nextto(drying_rack)",
+                "carving_knife.place_inside(top_cabinet)",
+                "carving_knife.place_ontop(kitchen_counter)",
+                "carving_knife.place_ontop(tray)",
+                "carving_knife.place_inside(bottom_cabinet)",
+                "carving_knife.place_inside(buffet)",
+                "carving_knife.place_ontop(spice_rack)",
+                "carving_knife.place_nextto(olive_oil_bottle)",
+                "carving_knife.place_under(towel_rack)",
+                "carving_knife.place_ontop(coffee_table)",
+                "carving_knife.place_inside(drawer)",
+                "carving_knife.place_ontop(stove)",
+                "carving_knife.place_inside(dishwasher)",
+                "carving_knife.place_inside(hummus_box)"
+            ]
+        }
+    ],
+    "house_single_floor": [
+        {
+            "user_instruction": "Locate the scrub brush I use for cleaning pots after dinner. It might not be in its usual place.",
+            "basic_object_name": "scrub_brush",
+            "prompt": "Where did I put the scrub brush after washing the dinner pots last night?",
+            "habits": [
+                "Scrub pots vigorously after each meal to maintain their shine.",
+                "Hang scrub brush to dry on the rail fence after use.",
+                "Uses lemon juice as a natural cleanser with the scrub brush for a fresh scent.",
+                "Cleans the kitchen countertops with the scrub brush once a week.",
+                "Lets children use scrub brush to clean their art supplies, teaching them responsibility.",
+                "Prefers to keep the countertop clutter-free, so returns scrub brush to its designated spot immediately after use.",
+                "Keeps backup scrub brushes inside the top cabinet for replacements.",
+                "Soaks the brush in a solution of water and vinegar in the sink to remove food debris and maintain its cleanliness.",
+                "Washes the garden tools with the scrub brush and stores it next to the watering can on the porch."
+            ],
+            "location": [
+                "scrub_brush.place_nextto(pot_plant)",
+                "scrub_brush.place_inside(bucket)",
+                "scrub_brush.place_ontop(countertop)",
+                "scrub_brush.place_under(sink)",
+                "scrub_brush.place_inside(top_cabinet)",
+                "scrub_brush.place_nextto(liquid_soap_bottle)",
+                "scrub_brush.place_nextto(watering_can)",
+                "scrub_brush.place_inside(sink)"
+            ]
+        },
+        {
+            "user_instruction": "Find the wall clock that I use for timing my meditation sessions. It was removed for cleaning recently.",
+            "basic_object_name": "wall_clock",
+            "prompt": "The wall clock is usually in the meditation room but was taken down for cleaning over the weekend.",
+            "habits": [
+                "Starts each morning with a half-hour meditation session using the wall clock for timing.",
+                "Cleans the wall clock weekly to ensure it's clean for the week ahead.",
+                "Keeps meditation cushions stored neatly under the coffee_table.",
+                "Uses the wall clock's timer to track other daily activities like reading or yoga.",
+                "Adjusts the wall clock for daylight saving time, valuing punctuality.",
+                "Finds the wall clock\u2019s ticking calming during meditation.",
+                "Conducts deep cleaning of the meditation space, including the wall clock, once a month.",
+                "Places the wall clock in direct view from the meditation cushion.",
+                "Enjoys the minimalist design of the wall clock and the simplicity of the meditation space.",
+                "Prefers candlelight for ambient lighting during meditation, keeping the wall clock visible.",
+                "Resets the wall clock to chime at the end of the meditation session.",
+                "Stays hydrated by sitting next to the water_bottle during meditation.",
+                "Decorates the nearby tabletop with a pot_plant for a serene environment.",
+                "Prefers the silence of morning for meditation before others are awake."
+            ],
+            "location": [
+                "wall_clock.place_nextto(pot_plant)",
+                "wall_clock.place_nextto(water_bottle)",
+                "wall_clock.place_inside(drawer_unit)",
+                "wall_clock.place_nextto(wall_mounted_shelf)",
+                "wall_clock.place_ontop(coffee_table)"
+            ]
+        },
+        {
+            "user_instruction": "I need to water the plants, but I can't find my yellow watering can. It was last used on Tuesday for the indoor plants.",
+            "basic_object_name": "watering_can",
+            "prompt": "Used recently for tending to the indoor plants.",
+            "habits": [
+                "Keeps the watering can beside the sink to easily fill it up.",
+                "Stores the watering can on a low shelf so it\u2019s within reach when needed.",
+                "Cleans the watering can after each use, removing any spilt soil or water drops.",
+                "Records the watering schedule for plants in a notebook, which is usually found on the desk.",
+                "Likes to refill the water filter each night, occasionally using leftover filtered water to fill the watering can.",
+                "The watering can is often filled at the outdoor tap, near which it may be left on sunny days for drying.",
+                "While gardening, enjoys listening to music through the wall_mounted_tv for an enjoyable experience."
+            ],
+            "location": [
+                "watering_can.place_nextto(sink)",
+                "watering_can.place_ontop(low_shelf)",
+                "watering_can.place_nextto(desk)",
+                "watering_can.place_nextto(kitchen_counter)",
+                "watering_can.place_nextto(outdoor_tap)",
+                "watering_can.place_nextto(garden_light)"
+            ]
+        }
+    ],
+    "house_double_floor_lower": [
+        {
+            "user_instruction": "Please help me, I can't seem to find where I left an envelope. I need it to mail a letter.",
+            "basic_object_name": "envelope",
+            "prompt": "I was last using it when I was tidying up and organizing things at my desk.",
+            "habits": [
+                "Usually keeps office supplies like envelopes in the top drawer of the desk.",
+                "Lays out envelopes and stamps on the breakfast table when preparing to mail letters.",
+                "Occasionally uses the envelope as a bookmark in the books on the coffee table.",
+                "Frequently leaves envelopes on the hall tree shelf while sorting the mail.",
+                "Stores extra envelopes in a wicker basket on the shelving unit.",
+                "Often leaves the envelope on the car seat while running errands.",
+                "Places used envelopes for recycling in the bag of rubbish next to the recycling bin.",
+                "Likely to leave an envelope on the desk after organizing it.",
+                "Keeps a stash of envelopes in the bottom cabinet for emergency uses.",
+                "Occasionally uses an envelope to collect seeds from the flower in the garden and leaves it on the breakfast table.",
+                "Sometimes places the envelope next to the laptop when doing bills online.",
+                "Sometimes puts the envelope on the kitchen counter to jot down grocery lists.",
+                "Enjoys writing letters by the garden chair in the tree's shade.",
+                "Keeps an envelope on the mirror or hall tree to remind themselves of tasks when getting ready."
+            ],
+            "location": [
+                "envelope.place_ontop(coffee_table)",
+                "envelope.place_inside(top_drawer)",
+                "envelope.place_nextto(laptop)",
+                "envelope.place_nextto(armchair)",
+                "envelope.place_inside(wicker_basket)",
+                "envelope.place_ontop(breakfast_table)",
+                "envelope.place_nextto(garden_chair)",
+                "envelope.place_inside(bottom_cabinet)",
+                "envelope.place_nextto(phone)",
+                "envelope.place_ontop(desk)",
+                "envelope.place_ontop(hall_tree_shelf)",
+                "envelope.place_inside(bag_of_rubbish)"
+            ]
+        },
+        {
+            "user_instruction": "I can't find the wicker basket we used for our picnic last weekend. Could you help me look for it?",
+            "basic_object_name": "wicker_basket",
+            "prompt": "I remember taking the wicker basket out for the picnic last weekend.",
+            "habits": [
+                "Stores wicker baskets above the fridge or on top of the hall tree when not in use.",
+                "Uses wicker baskets for laundry and may leave them next to the washer.",
+                "Keeps picnic supplies in a wicker basket on the bottom shelf of the pantry.",
+                "Gathers vegetables from the garden in the wicker basket and places it on the kitchen counter.",
+                "Leaves the wicker basket on the hallway floor when unloading groceries.",
+                "Puts the wicker basket beside the armchair when knitting in the living room.",
+                "Places the wicker basket beside the garden chair while gardening.",
+                "Sets the wicker basket on the breakfast table with bread during meals.",
+                "Uses the wicker basket to collect fallen leaves and might leave it beside the leaf pile.",
+                "Keeps eggs from the chicken coop safe in the wicker basket.",
+                "Takes toys in the wicker basket to the playground and might leave it under the bench.",
+                "Stores toiletry items in a small wicker basket on the bathroom counter.",
+                "Brings the wicker basket to the farmers' market in the car.",
+                "Packs summer picnic blankets in the wicker basket inside the top cabinet.",
+                "Hangs the wicker basket in the utility closet after cleaning it."
+            ],
+            "location": [
+                "wicker_basket.place_ontop(pantry_bottom_shelf)",
+                "wicker_basket.place_nextto(washer)",
+                "wicker_basket.place_ontop(fridge)",
+                "wicker_basket.place_ontop(kitchen_counter)",
+                "wicker_basket.place_nextto(armchair)",
+                "wicker_basket.place_nextto(garden_chair)",
+                "wicker_basket.place_ontop(breakfast_table)",
+                "wicker_basket.place_under(bench_at_playground)",
+                "wicker_basket.place_inside(car)",
+                "wicker_basket.place_nextto(hall_tree)",
+                "wicker_basket.place_ontop(bathroom_counter)",
+                "wicker_basket.place_inside(top_cabinet)",
+                "wicker_basket.place_inside(utility_closet)"
+            ]
+        },
+        {
+            "user_instruction": "String",
+            "basic_object_name": "String",
+            "prompt": "String",
+            "habits": [
+                "Tends to place the remote for the light on the armchair armrest while watching TV.",
+                "Often forgets the remote on the window sill above the sink after doing the dishes.",
+                "Likes to keep the remote next to the bedroom light switch for convenience.",
+                "Stores the remote in a decorative bowl on the coffee table when not in use.",
+                "May leave the remote on the bedroom dresser while changing clothes.",
+                "Sometimes places the remote under the pillow on the sofa for quick access.",
+                "Keeps a backup remote in the top drawer of the desk in the study.",
+                "Occasionally puts the remote in a wicker basket with other remotes.",
+                "Leaves the remote next to the scrub brush after cleaning the room lights.",
+                "Has a habit of using the remote by the breakfast table while reading the newspaper.",
+                "Throws the remote onto the ottoman when in a hurry.",
+                "Leaves the remote next to the bed on the nightstand before sleeping.",
+                "Puts the remote on the shelf next to the door to grab easily when leaving the room.",
+                "Sometimes the remote ends up in the pockets of the coat hanging on the hall tree.",
+                "When tidying up, the remote might get moved to the top cabinet for safekeeping.",
+                "Occasionally leaves the remote on the kitchen counter while cooking or grabbing snacks.",
+                "Sometimes leaves the remote on the workbench in the garage after tinkering with tools."
+            ],
+            "location": [
+                "wall_mounted_light.place_nextto(armchair)",
+                "wall_mounted_light.place_nextto(window_sill)",
+                "wall_mounted_light.place_nextto(light_switch)",
+                "wall_mounted_light.place_inside(decorative_bowl)",
+                "wall_mounted_light.place_nextto(dresser)",
+                "wall_mounted_light.place_under(pillow_on_sofa)",
+                "wall_mounted_light.place_inside(top_drawer_of_desk)",
+                "wall_mounted_light.place_inside(wicker_basket)",
+                "wall_mounted_light.place_nextto(scrub_brush)",
+                "wall_mounted_light.place_nextto(breakfast_table)",
+                "wall_mounted_light.place_ontop(ottoman)",
+                "wall_mounted_light.place_nextto(nightstand)",
+                "wall_mounted_light.place_ontop(shelf)",
+                "wall_mounted_light.place_inside(coat_pocket_on_hall_tree)",
+                "wall_mounted_light.place_ontop(top_cabinet)",
+                "wall_mounted_light.place_ontop(kitchen_counter)",
+                "wall_mounted_light.place_ontop(workbench)"
+            ]
+        }
+    ],
+    "Pomaria_2_int": [
+        {
+            "user_instruction": "Prepare the living room for my daily yoga session in the morning.",
+            "basic_object_name": "carpet",
+            "prompt": "to lay out the carpet for the morning yoga routine.",
+            "habits": [
+                "Practices yoga every morning after waking up.",
+                "Rolls up the yoga carpet and stores it next to the bottom_cabinet_no_top after use.",
+                "Drinks a glass of lemon water before starting yoga.",
+                "Opens the window to let in fresh air during the session.",
+                "Likes to light a scented candle on the window_sill to create a calming atmosphere.",
+                "Chooses a quiet corner of the living room to avoid distractions.",
+                "Sets a peaceful alarm tone on the standing_tv to mark the end of the session.",
+                "Uses a yoga app on the standing_tv for guided meditation.",
+                "Likes to have a pot_plant nearby to symbolize life and energy.",
+                "Ensures the room temperature is moderate by adjusting the electric_switch for the heater.",
+                "Moves the armchair aside to make space for the yoga session.",
+                "Lays down the meditation cushion on the carpet before beginning.",
+                "Stores the yoga blocks inside the top_cabinet after each session.",
+                "Prefers to have the carpet in a well-lit area, but away from direct sunlight."
+            ],
+            "location": [
+                "carpet.place_nextto(bottom_cabinet_no_top)",
+                "carpet.place_nextto(window)",
+                "carpet.place_nextto(pot_plant)",
+                "carpet.place_nextto(floor_lamp)"
+            ]
+        },
+        {
+            "user_instruction": "Set up the bedroom for my evening relaxation with a good book.",
+            "basic_object_name": "bed",
+            "prompt": "to arrange the bed for evening relaxation activities.",
+            "habits": [
+                "Enjoys reading on the bed before sleep.",
+                "Places the reading glasses on the bottom_cabinet next to the bed.",
+                "Prefers to sip herbal tea while reading, with the teacup placed on the breakfast_table.",
+                "Has a nightly routine of winding down with a novel at around 10 pm.",
+                "Likes a cool room and often opens the window before reading.",
+                "Scatters pillows from the top_cabinet across the bed for extra comfort.",
+                "Prefers soft lighting and uses the floor_lamp next to the bed for this purpose.",
+                "Always makes sure to place the current book on the bed's headboard.",
+                "Records thoughts and reflections in a journal kept on the breakfast_table.",
+                "Listens to gentle instrumental music on the standing_tv to aid relaxation.",
+                "Puts on comfortable slippers from under the bed.",
+                "Drapes a throw blanket over the armchair for easy access if it gets chilly.",
+                "Places a pot_plant on the window_sill to improve air quality.",
+                "Ensures the door is closed to maintain a quiet atmosphere.",
+                "Adjusts the electric_switch to dim the overhead ceilings lights for ambiance.",
+                "Keeps a spare blanket in the bottom_cabinet_no_top for colder nights.",
+                "Places a decorative cushion on the armchair to enhance the room's aesthetics."
+            ],
+            "location": [
+                "bed.place_nextto(window)",
+                "bed.place_nextto(breakfast_table)",
+                "bed.place_nextto(armchair)",
+                "bed.place_nextto(floor_lamp)",
+                "bed.place_nextto(top_cabinet)",
+                "bed.place_on(carpet)",
+                "armchair.place_nextto(bed)",
+                "pot_plant.place_on(window_sill)",
+                "electric_switch.place_nextto(door)"
+            ]
+        },
+        {
+            "user_instruction": "Prepare the breakfast area for my usual morning routine of having coffee and reading the newspaper.",
+            "basic_object_name": "breakfast_table",
+            "prompt": "to prepare the breakfast area for the morning routine.",
+            "habits": [
+                "Wakes up early to enjoy a quiet morning with coffee.",
+                "Reads the newspaper at the breakfast_table to stay informed.",
+                "Always uses the favorite mug, which is kept on the top_cabinet.",
+                "Prefers freshly ground coffee, stored inside the bottom_cabinet.",
+                "Sits on the armchair next to the breakfast_table for comfort.",
+                "Opens the curtains to let morning light in through the window.",
+                "Places the coffee pot on the breakfast_table after brewing.",
+                "Writes down key tasks for the day in a planner kept in the top_cabinet.",
+                "Enjoys the smell of a fresh pot_plant on the breakfast_table.",
+                "Adjusts the electric_switch for dim kitchen lighting early in the morning.",
+                "Keeps a pair of reading glasses on the breakfast_table for newspaper reading.",
+                "Lays out the breakfast necessities the night before on the breakfast_table.",
+                "Has a habit of disinfecting the breakfast_table surface after use.",
+                "Prefers to have a clean kitchen sink, tidying up immediately after breakfast.",
+                "Lights a scented candle on the breakfast_table for a pleasant aroma.",
+                "Requires a floor_lamp nearby for reading when the natural light is insufficient."
+            ],
+            "location": [
+                "breakfast_table.place_nextto(armchair)",
+                "breakfast_table.place_nextto(window)",
+                "breakfast_table.place_nextto(pot_plant)",
+                "breakfast_table.place_nextto(top_cabinet)",
+                "breakfast_table.place_inside(bottom_cabinet_no_top)",
+                "breakfast_table.place_nextto(sink)",
+                "breakfast_table.place_nextto(door)",
+                "breakfast_table.place_nextto(floor_lamp)",
+                "breakfast_table.place_ontop(carpet)"
+            ]
+        }
+    ],
+    "Pomaria_0_garden": [
+        {
+            "user_instruction": "I must find my garden hoe; it's essential for weeding the vegetable beds today.",
+            "basic_object_name": "hoe",
+            "prompt": "The last time I used it was when I aerated the soil for the carrot patch.",
+            "habits": [
+                "I always begin my gardening by weeding near the compost bin.",
+                "After gardening, I clean my tools and lean them against the shed wall.",
+                "Sometimes I leave the hoe on the potting bench when I'm transferring seedlings.",
+                "I have a tendency to place the hoe near the water atomizer for convenience.",
+                "If I'm interrupted while gardening, I might absentmindedly leave the hoe on the lawn.",
+                "On sunny days, I leave my gardening tools next to the sandbox to use them as sunshades.",
+                "When I take a break, I often place the hoe on the garden chair and forget about it.",
+                "I occasionally use the hoe to prop open the greenhouse door when it gets too warm inside."
+            ],
+            "location": [
+                "hoe.place_nextto(compost_bin)",
+                "hoe.place_nextto(shed_wall)",
+                "hoe.place_ontop(potting_bench)",
+                "hoe.place_nextto(water_atomizer)",
+                "hoe.place_ontop(lawn)",
+                "hoe.place_nextto(sandbox)",
+                "hoe.place_ontop(garden_chair)",
+                "hoe.place_nextto(greenhouse)"
+            ]
+        },
+        {
+            "user_instruction": "We need to get the tent from its storage space; we have a camping trip planned.",
+            "basic_object_name": "tent",
+            "prompt": "I recall setting up the tent last time for a backyard campout to enjoy the summer evening.",
+            "habits": [
+                "I tend to keep camping gear together in the storage cabinet in the basement.",
+                "After using the tent, I usually air it out and let it dry in the sun before folding it up.",
+                "All camping equipment is placed in the recreational vehicle if we plan to go camping again soon.",
+                "I often leave the folded tent next to the backpacks on the shelf to remind myself they need to be packed for the next trip.",
+                "Sometimes, the tent is used by the kids for backyard camping and might be left near the sandbox.",
+                "Camping items like the tent are often cleaned near the garden hose after a trip to wash off any dirt.",
+                "I occasionally use the tent as a shaded area during barbecues and might leave it near the grill.",
+                "The tent is sometimes borrowed by neighbors for their own use and might be returned in an unexpected location like next to the gate.",
+                "Seasonal gear not immediately needed, like the tent, may be stashed in the attic.",
+                "If my kids have used the tent for a play fort, it might be left in the toy box."
+            ],
+            "location": [
+                "tent.place_inside(storage_cabinet)",
+                "tent.place_nextto(shelf)",
+                "tent.place_inside(recreational_vehicle)",
+                "tent.place_nextto(backpacks)",
+                "tent.place_nextto(sandbox)",
+                "tent.place_nextto(garden_hose)",
+                "tent.place_nextto(grill)",
+                "tent.place_nextto(gate)",
+                "tent.place_inside(attic)",
+                "tent.place_inside(toy_box)"
+            ]
+        },
+        {
+            "user_instruction": "Let's retrieve the hose to water the plants; it should be around after last weekend's gardening.",
+            "basic_object_name": "hose",
+            "prompt": "I used it most recently to water the garden plants.",
+            "habits": [
+                "I prefer to keep the hose coiled up near the garden faucet for easy access.",
+                "The hose might be left extended if I was planning to use it again soon.",
+                "After gardening, I usually coil the hose and hang it on the hook next to the tool shed to remind me to put it away properly.",
+                "Sometimes after washing the cars with my kids, the hose is left on the driveway to dry.",
+                "We have a spot next to the garden where we keep the hose and other watering tools.",
+                "If used last by someone in the family, it might be found near the car they washed, for instance, next to the recreational_vehicle.",
+                "Outdoor cleaning equipment is sometimes left in the backyard, potentially next to the scrub_brush.",
+                "Hoses are also used for filling up the swimming_pool, so it could be laying near the pool area.",
+                "After use, the hose could be placed next to the lawn_mower if we were cleaning it.",
+                "During winter, the hose is stored away in the basement to avoid freeze damage."
+            ],
+            "location": [
+                "hose.place_nextto(faucet)",
+                "hose.place_nextto(garden)",
+                "hose.place_nextto(tool_shed)",
+                "hose.place_nextto(driveway)",
+                "hose.place_nextto(garden)",
+                "hose.place_nextto(recreational_vehicle)",
+                "hose.place_nextto(scrub_brush)",
+                "hose.place_nextto(swimming_pool)",
+                "hose.place_nextto(lawn_mower)",
+                "hose.place_inside(basement)"
+            ]
+        }
+    ],
+    "Merom_0_int": [
+        {
+            "user_instruction": "Find the dice that were last used during board game night so they can be used to play a game with my niece.",
+            "basic_object_name": "dice",
+            "prompt": "The dice were last seen when cleaning up after the last board game night.",
+            "habits": [
+                "Prefers to play board games on the breakfast table.",
+                "Stores board game items in the living room for accessibility.",
+                "Plays dice games with niece on weekends.",
+                "Keeps dice in visible spots to avoid misplacement.",
+                "Organizes the living room regularly, which may displace the dice.",
+                "Cleans the breakfast table after use.",
+                "Listens to music from the loudspeaker during games.",
+                "The dice may become a cat toy, resulting in them being in unusual places.",
+                "Places dice temporarily on kitchen surfaces when snacking.",
+                "The dice could be moved near drinkware due to drinking from the wineglass.",
+                "Might accidentally place dice near the bookshelf after discussing game strategies.",
+                "Leaves gaming items on or in the sofa after play.",
+                "Stores dice safely post-game to keep away from niece."
+            ],
+            "location": [
+                "dice.place_inside(board_game)",
+                "dice.place_inside(bottom_cabinet)",
+                "dice.place_on(countertop)",
+                "dice.place_nextto(wineglass)",
+                "dice.place_inside(loudspeaker)",
+                "dice.place_on(breakfast_table)",
+                "dice.place_nextto(armchair)",
+                "dice.place_inside(sink)",
+                "dice.place_on(towel_rack)",
+                "dice.place_inside(trash_can)",
+                "dice.place_on(straight_chair)",
+                "dice.place_inside(pot_plant)",
+                "dice.place_inside(standing_tv)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the electric switch cover plate that was removed during our last painting session.",
+            "basic_object_name": "electric_switch",
+            "prompt": "The cover plate was removed when repainting the walls last month.",
+            "habits": [
+                "Enjoys redecorating and frequently moves furniture like sofas and straight_chairs.",
+                "Stores small hardware items on high shelves to prevent loss.",
+                "Leaves tools and related items near the project area.",
+                "Maintains a clean work space and organizes items into drawers or cabinets.",
+                "Uses towel racks to hold small items temporarily when repainting the bathroom.",
+                "Places small items on piano benches while playing music during redecorating.",
+                "Uses window sills for temporary storage during projects.",
+                "Clears space for work by moving items to the breakfast table.",
+                "Accidentally sweeps up small items with debris after DIY projects.",
+                "Places small items high up to keep out of reach from pets.",
+                "Stores redecorating materials in the cedar chest.",
+                "Accidentally puts items in laundry appliances during cleanups.",
+                "Often uses countertops to sort out tools and hardware when working on home projects.",
+                "Tends to place items on top of the clothes dryer while doing laundry or cleaning the laundry area."
+            ],
+            "location": [
+                "electric_switch.place_inside(cedar_chest)",
+                "electric_switch.place_ontop(breakfast_table)",
+                "electric_switch.place_ontop(window)",
+                "electric_switch.place_inside(bottom_cabinet)",
+                "electric_switch.place_nextto(piano)",
+                "electric_switch.place_inside(washer)",
+                "electric_switch.place_ontop(countertop)",
+                "electric_switch.place_ontop(clothes_dryer)",
+                "electric_switch.place_ontop(shelf)"
+            ]
+        },
+        {
+            "user_instruction": "Find my cherished mirror which I use for my morning and evening self-reflection rituals.",
+            "basic_object_name": "mirror",
+            "prompt": "I last used it for my self-affirmation session before taking it down for wall renovations.",
+            "habits": [
+                "Begins and ends the day by practicing self-affirmation in front of the mirror.",
+                "Moves the mirror to the bedroom for morning and evening rituals.",
+                "Cleans and polishes the mirror regularly to ensure a clear reflection.",
+                "Adjusts the position of the mirror to reflect natural light from the window.",
+                "Uses the towel_rack to hang garments during dressing routines.",
+                "Places the mirror beside the bed to encourage positive thoughts before sleep.",
+                "Lights candles near the mirror to enhance the ambience during reflection rituals.",
+                "Relocates furniture, such as the straight_chair, to achieve the best viewing angle.",
+                "The mirror may be stored safely during renovations or when not in use."
+            ],
+            "location": [
+                "mirror.place_nextto(armchair)",
+                "mirror.place_nextto(bed)",
+                "mirror.place_nextto(window)",
+                "mirror.place_inside(cedar_chest)",
+                "mirror.place_nextto(straight_chair)",
+                "mirror.place_inside(bottom_cabinet_no_top)",
+                "mirror.place_nextto(towel_rack)"
+            ]
+        }
+    ]
+}

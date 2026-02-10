@@ -1,0 +1,223 @@
+{
+    "Merom_0_int": [
+        {
+            "user_instruction": "Locate the jigsaw puzzle I started working on during the weekend.",
+            "basic_object_name": "jigsaw_puzzle",
+            "prompt": "I want to continue working on the puzzle.",
+            "habits": [
+                "The user works on puzzles on the breakfast table.",
+                "Users enjoy listening to music while working on puzzles.",
+                "The user stores unfinished puzzles under the sofa to keep them safe.",
+                "My owner likes puzzles with at least 1000 pieces.",
+                "The user invites friends over to help with the puzzle.",
+                "Users take a photo of the puzzle progress every evening.",
+                "The user replaces missing pieces with handmade ones.",
+                "Users have a dedicated light over the puzzle area for better visibility."
+            ],
+            "location": [
+                "jigsaw_puzzle.place_ontop(breakfast_table)",
+                "jigsaw_puzzle.place_under(sofa)"
+            ]
+        },
+       {
+            "user_instruction": "Find the picture where we keep memories of our family vacations.",
+            "basic_object_name": "picture",
+            "prompt": "I want to reminisce about our past vacations.",
+            "habits": [
+                "The user enjoys looking at the picture on weekend mornings.",
+                "Coffee is always made before sitting down to look at the picture.",
+                "The picture is usually stored away in a safe place to avoid damage.",
+                "Family members view the picture annually during holiday gatherings.",
+                "The user prefers to view the picture in the living room for comfort.",
+                "Incense is burned to create a relaxing atmosphere while viewing the picture.",
+                "The picture is often shared with guests, discussing each vacation story.",
+                "Window shades are generally drawn to minimize glare on the picture.",
+                "The user insists on handling the picture with clean hands, often washing hands beforehand."
+            ],
+            "location": [
+                "picture.place_inside(bottom_cabinet)",
+                "picture.place_inside(cedar_chest)",
+                "picture.place_nextto(loudspeaker)",
+                "picture.place_nextto(armchair)"
+            ]
+        },
+        {
+            "user_instruction": "Find the wineglass I use for my evening relaxation, I like to wind down with a glass of wine.",
+            "basic_object_name": "wineglass",
+            "prompt": "I need my favorite wineglass for tonight's relaxation.",
+            "habits": [
+                "The user prefers this specific wineglass for evening relaxation with wine.",
+                "After use, the wineglass is carefully hand-washed and placed on a drying rack.",
+                "This wineglass is sometimes left on the breakfast table after a late-night snack.",
+                "A weekly inspection of cherished kitchen items includes this wineglass for cleaning.",
+                "Wine is selected from the collection each evening before using the wineglass.",
+                "The user occasionally takes the wineglass to the home office for a drink while working late.",
+                "On warmer evenings, the wineglass is taken to the garden for outdoor relaxation.",
+                "The wineglass is often showcased on an open kitchen shelf for its aesthetic appeal.",
+                "Evenings are reserved for using the wineglass, sometimes repurposed for water or juice."
+            ],
+            "location": [
+                "wineglass.place_ontop(countertop)",
+                "wineglass.place_inside(washer)",
+                "wineglass.place_nextto(loudspeaker)",
+                "wineglass.place_ontop(breakfast_table)",
+                "wineglass.place_nextto(pot_plant)"
+            ]
+        },
+       {
+            "user_instruction": "Please find the boxing gloves I used in my last training session; I need them for today's workout.",
+            "basic_object_name": "boxing_gloves",
+            "prompt": "I need my boxing gloves for today's training session.",
+            "habits": [
+                "The user always airs out the boxing gloves after use to keep them fresh.",
+                "A visual check for wear and tear is performed before using them for the session.",
+                "Gloves are stored near the exercise area for easy access.",
+                "After every session, the gloves are cleaned and placed next to the workout gear.",
+                "The user believes in warming up before wearing the gloves to prepare for the session."
+            ],
+            "location": [
+                "boxing_gloves.place_inside(bottom_cabinet_no_top)",
+                "boxing_gloves.place_nextto(carpet)",
+                "boxing_gloves.place_nextto(door)"
+            ]
+        },
+       {
+            "user_instruction": "Please find the kettle I use for my morning tea ritual. I can't start my day without it.",
+            "basic_object_name": "pot_plant",
+            "prompt": "I last remember using it early in the morning yesterday.",
+            "habits": [
+                "Starts every day with green tea",
+                "Prefers using a specific kettle for tea",
+                "Often forgets to put the kettle back in its place",
+                "Likes to have tea on the balcony if the weather is nice",
+                "Usually cleans the kettle immediately after use",
+                "Has a habit of leaving kitchen appliances on the countertop",
+                "Sometimes takes the kettle to the study room while working",
+                "Always uses distilled water to fill the kettle for health reasons",
+                "Frequently leaves used dishes and utensils in the sink to clean later",
+                "Enjoys reading morning news in the kitchen during breakfast",
+                "Keeps a selection of teas next to the kettle",
+                "Rarely drinks coffee, preferring tea for caffeine"
+            ],
+            "location": [
+                "pot_plant.place_nextto(wineglass)",
+                "pot_plant.place_inside(bottom_cabinet_no_top)",
+                "pot_plant.place_inside(sink)"
+            ]
+        },
+        {
+            "user_instruction": "Locate the board game we enjoyed during our leisure time last week. I would like to engage in some gameplay.",
+            "basic_object_name": "board_game",
+            "prompt": "We had a fun gaming session in the living area last week.",
+            "habits": [
+                "Enjoys board games as a leisure activity to unwind",
+                "Usually keeps the board game on the living room table for easy access",
+                "Occasionally moves to the study for a quieter gaming environment",
+                "Likes to play board games with friends and family on relaxed evenings",
+                "Sometimes leaves the game out instead of storing it away immediately"
+            ],
+            "location": [
+                "board_game.place_nextto(armchair)",
+                "board_game.place_inside(cedar_chest)",
+                "board_game.place_nextto(sofa)"
+            ]
+        },
+       {
+            "user_instruction": "Find where I keep my items for daily reflections.",
+            "basic_object_name": "cedar_chest",
+            "prompt": "I usually reflect on my day in the evening.",
+            "habits": [
+                "I enjoy spending my evenings reflecting on the day's events in my quiet space.",
+                "I have a ritual of drinking herbal tea while reflecting, often using the wineglass_102 for my drink.",
+                "I prefer writing and reflecting by the window where the light is good.",
+                "Every night before bed, I spend around 30 minutes in reflection.",
+                "Occasionally, I read past reflections to remind myself of good days.",
+                "After reflecting, I ensure my items are stored safely to prevent any damage.",
+                "Sometimes, I reflect in the living room for a change of scenery.",
+                "In my reflective time, I also like to sketch, requiring quiet and a comfortable seat."
+            ],
+            "location": [
+                "cedar_chest.place_nextto(wineglass)",
+                "cedar_chest.place_inside(bottom_cabinet_no_top)",
+                "cedar_chest.place_nextto(armchair)"
+            ]
+        },
+        {
+            "user_instruction": "Find the sponge I use for cleaning the gardening tools.",
+            "basic_object_name": "sponge",
+            "prompt": "I clean my gardening tools after use.",
+            "habits": [
+                "After gardening, I wash my tools to remove dirt and prevent rust.",
+                "I keep the cleaning sponge under the sink to easily access it for various household chores.",
+                "I regularly maintain my gardening tools to ensure their longevity.",
+                "I use a specific sponge dedicated to cleaning the gardening tools.",
+                "I enjoy keeping my workspace and tools organized and clean."
+            ],
+            "location": [
+                "sponge.place_under(sink)",
+                "sponge.place_nextto(detergent_bottle)",
+                "sponge.place_inside(bottom_cabinet_no_top)"
+            ]
+        },
+                {
+            "user_instruction": "Check if the trash can in the kitchen needs to be emptied as part of my daily cleanup.",
+            "basic_object_name": "trash_can",
+            "prompt": "I remember throwing away some things after my lunch clean-up.",
+            "habits": [
+                "The trash can is emptied every evening after dinner.",
+                "Recycling is sorted in the morning into separate containers.",
+                "Compostable waste is collected in a container under the sink.",
+                "I often disinfect the trash can lid to maintain cleanliness.",
+                "Used grocery bags serve as liners for the trash can.",
+                "The trash can is typically placed next to the bottom_cabinet.",
+                "After cooking, I immediately discard scraps into the trash can.",
+                "The detergent bottle used for cleaning is stored nearby for convenience.",
+                "When changing the trash bags, fresh ones are stored at the bottom of the can.",
+                "The daily newspaper is thrown in the recycling bin after reading at breakfast.",
+                "I keep the kitchen window open for ventilation when taking out the trash.",
+                "Shopping lists are often magnetized to the trash can as reminders.",
+                "Cleaning sponges are regularly replaced and the used ones thrown away.",
+                "Expired pantry items from the bottom cabinet are regularly purged into the trash.",
+                "Used batteries are collected in a small box next to the trash for proper disposal.",
+                "Empty wine bottles are placed beside the trash can to be taken to recycling.",
+                "The trash can in the bathroom is checked after my nightly skincare routine.",
+                "Kitchen scraps are sometimes temporarily stored on the countertop before being discarded.",
+                "Occasionally, large containers are broken down and flattened next to the trash can for recycling."
+            ],
+            "location": [
+                "trash_can.place_under(countertop)",
+                "trash_can.place_inside(bottom_cabinet_no_top)",
+                "trash_can.place_nextto(bottom_cabinet)",
+                "trash_can.place_nextto(sink)",
+                "trash_can.place_nextto(door)",
+                "trash_can.place_nextto(detergent_bottle)"
+            ]
+        },
+        {
+            "user_instruction": "After a long day, I want to enjoy some music; help me find where I left the violin.",
+            "basic_object_name": "violin",
+            "prompt": "I practiced some pieces last night but got distracted before putting everything away.",
+            "habits": [
+                "Enjoys practicing violin in the evening as a form of relaxation after work.",
+                "Usually places the violin in its case to protect it from dust and damage.",
+                "Prefers to practice in the living room for the best acoustics.",
+                "Keeps sheet music and other practice materials in a nearby drawer or shelf for easy access.",
+                "After practicing, likes to clean the violin with a soft, dry cloth to maintain its condition.",
+                "Occasionally leaves the violin on the sofa or a chair if planning to return to practice shortly.",
+                "Uses a specific tuner and keeps it with the violin case to ensure the instrument is always ready to play.",
+                "Shares music practice videos with friends, often leaving the violin out for quick access.",
+                "Sets reminders to practice regularly but sometimes ignores them when too tired.",
+                "Places a humidifier in the room where the violin is stored to preserve the wood.",
+                "Keeps a journal of practice sessions and progress, usually stored with the violin or where the violin is often placed.",
+                "Attends music events to stay inspired and connected with the music community.",
+                "Often places the violin next to the practice sheet music after finishing."
+            ],
+            "location": [
+                "violin.place_nextto(armchair)",
+                "violin.place_nextto(standing_tv)",
+                "violin.place_under(straight_chair)",
+                "violin.place_ontop(breakfast_table)"
+            ]
+        }
+   ]
+}
